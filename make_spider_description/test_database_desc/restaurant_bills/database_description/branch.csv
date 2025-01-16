@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+Branch_ID,Branch_ID,"A unique identifier for each branch, represented as an integer",INT,"1, 2, 3, 4, 5"
+Manager,Manager,"The name of the manager responsible for the branch, stored as text",TEXT,"Ashby Lazale, Breton Robert, Campbell Jessie, Cobb Sedrick, Hayes Steven"
+Years_opened,Years_opened,"The number of years the branch has been in operation, represented as an integer",INT,"5, 4, 6, 2, 3"
+Location_of_office,Location_of_office,"The city or location where the branch is situated, stored as text",TEXT,"Hartford, Waterbury, Cheshire, Bridgeport"

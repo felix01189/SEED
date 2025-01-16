@@ -1,0 +1,7 @@
+original_column_name,column_name,column_description,data_format,value_description
+treatment_id,treatment_id,A unique identifier for each treatment record,INTEGER,"1, 2, 3, 4, 5"
+dog_id,dog_id,"The identifier of the dog that received the treatment, linking to the `Dogs` table",INTEGER,"14, 4, 2, 12, 10"
+professional_id,professional_id,"The identifier of the professional who administered the treatment, linking to the `Professionals` table",INTEGER,"9, 10, 4, 8, 14"
+treatment_type_code,treatment_type_code,"The code representing the type of treatment administered, linking to the `Treatment_Types` table",VARCHAR(10),"WALK, VAC, EXAM"
+date_of_treatment,date_of_treatment,The date and time when the treatment was administered,DATETIME,"2018-03-19 04:39:54, 2018-03-15 20:25:34, 2018-03-08 05:26:23, 2018-03-01 04:14:46, 2018-03-23 13:52:10"
+cost_of_treatment,cost_of_treatment,"The cost associated with the treatment, recorded as a decimal value","DECIMAL(19,4)","567, 147, 429, 266, 668"

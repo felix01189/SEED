@@ -1,0 +1,6 @@
+original_column_name,column_name,column_description,data_format,value_description
+section_id,section_id,A unique identifier for each section of a course,INTEGER,"1, 2, 3, 4, 5"
+course_id,course_id,"The identifier of the course to which this section belongs, linking to the `Courses` table",INTEGER,"9, 2, 8, 1, 5"
+section_name,section_name,"The name or identifier of the section (e.g., 'A', 'B', 'C')",VARCHAR(255),"a, b, c, d, e"
+section_description,section_description,A brief description or additional details about the section,VARCHAR(255),"non, voluptatem, qui, voluptas, ex"
+other_details,other_details,Any other relevant information about the section that is not covered by the other columns,VARCHAR(255),None

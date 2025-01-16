@@ -1,0 +1,6 @@
+original_column_name,column_name,column_description,data_format,value_description
+event_id,event_id,A unique identifier for each event,INTEGER,"146, 161, 189, 227"
+event_type_code,event_type_code,"A code that categorizes the type of event (e.g., Exam, Registration)",CHAR(10),"Exam, Registration"
+student_id,student_id,The identifier of the student associated with the event,INTEGER,"287, 777, 361, 669"
+event_date,event_date,The date and time when the event occurred,DATETIME(3),"2008-08-15 22:16:17.000, 2014-07-15 18:18:15.000, 2013-04-14 04:14:10.000, 2012-12-06 06:44:53.000"
+other_details,other_details,Additional details or notes related to the event,VARCHAR(255),

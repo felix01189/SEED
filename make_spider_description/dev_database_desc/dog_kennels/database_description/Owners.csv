@@ -1,0 +1,11 @@
+original_column_name,column_name,column_description,data_format,value_description
+owner_id,owner_id,"A unique identifier for each owner, serving as the primary key for the 'Owners' table",INTEGER,"1, 2, 3, 4, 5"
+first_name,first_name,The first name of the owner,VARCHAR(50),"Nora, Melisa, Jaclyn, Tre, Johann"
+last_name,last_name,The last name of the owner,VARCHAR(50),"Haley, DuBuque, Stoltenberg, Hamill, Fisher"
+street,street,The street address where the owner resides,VARCHAR(50),"0647 Hintz Village Apt. 024, 1204 Mae Highway Apt. 107, 2635 Caitlyn Plains, 692 Jaskolski Forges, 68118 Daniel Row"
+city,city,The city where the owner resides,VARCHAR(50),"Lake Tia, Port Reannamouth, Barrettburgh, Brakusfurt, Lake Valentin"
+state,state,The state where the owner resides,VARCHAR(20),"Wisconsin, Virginia, Vermont, Florida, NorthDakota"
+zip_code,zip_code,The postal code for the owner's address,VARCHAR(20),"93165, 45244, 02647, 87304, 61019"
+email_address,email_address,The email address of the owner,VARCHAR(50),"lynn81@example.org, ykris@example.com, hudson.favian@example.com, marks.gail@example.org, zboncak.madonna@example.net"
+home_phone,home_phone,The home phone number of the owner,VARCHAR(20),"1-682-845-0116x63235, (799)563-0260x454, 916.976.9480x13851, 1-332-849-1908, (544)034-1670"
+cell_number,cell_number,The cell phone number of the owner,VARCHAR(20),"478.978.0729, (722)768-5439x484, 481-483-9083x37986, 739-136-7202, 1-626-264-7659x1697"

@@ -1,0 +1,7 @@
+original_column_name,column_name,column_description,data_format,value_description
+sculptureID,sculptureID,"A unique identifier for each sculpture, used as the primary key",INTEGER,"20, 21, 22, 23"
+title,title,The name or title of the sculpture,TEXT,"Female Figure, Arabesque, Spanish Dance, The Tub"
+year,year,The year the sculpture was created,INTEGER,"1945, 1885, 1883, 1889"
+medium,medium,"The material or medium used to create the sculpture (e.g., bronze)",TEXT,bronze
+location,location,"The current location of the sculpture, if available (e.g., Gallery 226)",TEXT,"None, Gallery 226"
+sculptorID,sculptorID,"The unique identifier of the artist who created the sculpture, referencing the 'artistID' in the 'Artists' table",INTEGER,"222, 555"

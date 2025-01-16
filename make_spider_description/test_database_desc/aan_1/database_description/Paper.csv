@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+paper_id,paper_id,the unique identifier for each paper,varchar(25),"A00-1001, A00-1002, A00-1003, A00-1004, A00-1005"
+title,title,stores the title of the paper,varchar(255),"BusTUC - A Natural Language Bus Route Oracle, Machine Translation Of Very Close Languages, Cross-Language Multimedia Information Retrieval, Automatic Construction Of Parallel English-Chinese Corpus For Cross-Language Information Retrieval, PartsID: A Dialogue-Based System For Identifying Parts For Medical Systems"
+venue,venue,"indicates the venue (e.g., conference or journal) where the paper was published",varchar(255),"NAACL, ANLP, COLING, EMNLP, EACL"
+year,year,specifies the year the paper was published,INTEGER,"2000, 1983, 1988, 1992, 1994"

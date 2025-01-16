@@ -1,0 +1,8 @@
+original_column_name,column_name,column_description,data_format,value_description
+Game_ID,Game_ID,A unique identifier for each game in the database,INT,"1, 2, 3, 4, 5"
+Title,Title,The name of the game,TEXT,"Pokémon Red / Green / Blue Version, Pokémon Gold / Silver Version, Super Mario World, Pokémon Yellow: Special Pikachu Edition, Super Mario 64"
+Release_Date,Release_Date,"The date when the game was released, stored as text",TEXT,"27 February 1996, 21 November 1999, 21 November 1990, 12 September 1998, 23 June 1996"
+Franchise,Franchise,The franchise or series to which the game belongs,TEXT,"Pokémon, Super Mario Bros., Gran Turismo, Mario Kart"
+Developers,Developers,The company or companies responsible for developing the game,TEXT,"Nintendo / GameFreak, Nintendo/GameFreak, Nintendo, Polyphony Digital"
+Platform_ID,Platform_ID,A foreign key referencing the platform on which the game is available,INT,"1, 2, 3, 4"
+Units_sold_Millions,Units_sold_Millions,"The number of units sold, measured in millions",INT,"31.37, 23.1, 20.61, 14.64, 11.89"

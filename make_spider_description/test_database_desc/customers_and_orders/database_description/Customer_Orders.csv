@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+order_id,order_id,"A unique identifier for each order, serving as the primary key",INTEGER,"1, 2, 3, 4, 5"
+customer_id,customer_id,"The identifier of the customer who placed the order, linking to the `Customers` table",INTEGER,"12, 3, 1, 15, 13"
+order_date,order_date,The date and time when the order was placed,DATETIME,"2016-05-14 22:08:41, 1991-02-26 11:32:39, 2000-06-26 05:17:11, 1987-06-28 09:12:32, 1994-12-17 22:49:09"
+order_status_code,order_status_code,"The current status of the order, such as 'Part' or 'Completed'",VARCHAR(15),"Part, Completed"

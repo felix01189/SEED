@@ -1,0 +1,10 @@
+original_column_name,column_name,column_description,data_format,value_description
+meeting_id,meeting_id,A unique identifier for each meeting,INTEGER,"1, 2, 3, 4, 5"
+client_id,client_id,"The identifier of the client associated with the meeting, linking to the `Clients` table",INTEGER,"15, 3, 4, 5, 14"
+meeting_outcome,meeting_outcome,"The result or outcome of the meeting, such as 'Report', 'Summary', or 'Vote results'",VARCHAR(10),"Report, Summary, Vote results"
+meeting_type,meeting_type,"The type of meeting, such as 'Team', 'Group', or 'Company'",VARCHAR(10),"Team, Group, Company"
+billable_yn,billable_yn,A flag indicating whether the meeting is billable (1) or not (0),VARCHAR(1),"0, 1"
+start_date_time,start_date_time,The date and time when the meeting started,DATETIME,"2018-03-06 05:07:33, 2018-03-16 02:24:10, 2018-03-06 21:02:06, 2018-03-10 05:03:46, 2018-02-26 18:35:24"
+end_date_time,end_date_time,The date and time when the meeting ended,DATETIME,"2018-03-21 09:26:41, 2018-03-21 17:57:59, 2018-03-01 05:10:01, 2018-02-25 23:20:12, 2018-03-12 18:48:55"
+purpose_of_meeting,purpose_of_meeting,"A brief description of the purpose of the meeting, such as 'get proposal done' or 'weekly report'",VARCHAR(255),"get proposal done, vote for solutions, weekly report, monthly report"
+other_details,other_details,"Additional details or notes about the meeting, such as 'absent staff' or other relevant information",VARCHAR(255),"0, absent staff, "

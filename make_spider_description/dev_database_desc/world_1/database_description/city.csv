@@ -1,0 +1,6 @@
+original_column_name,column_name,column_description,data_format,value_description
+ID,ID,"A unique identifier for each city, automatically incremented",INTEGER,"129, 1, 2, 3, 4"
+Name,Name,"The name of the city, stored as a string with a maximum length of 35 characters",char(35),"Kabul, Qandahar, Herat, Mazar-e-Sharif, Amsterdam"
+CountryCode,CountryCode,"A 3-character code representing the country where the city is located, linked to the `country` table",char(3),"ABW, AFG, AGO, AIA, ALB"
+District,District,"The district or region within the country where the city is located, stored as a string with a maximum length of 20 characters",char(20),"Kabol, Qandahar, Herat, Balkh, Noord-Holland"
+Population,Population,"The population of the city, stored as an integer",INTEGER,"1780000, 237500, 186800, 127800, 731200"

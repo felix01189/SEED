@@ -1,0 +1,14 @@
+original_column_name,column_name,column_description,data_format,value_description
+user_id,user_id,A unique identifier for each user in the system,INTEGER,"1, 2, 3, 4, 5"
+age_category_code,age_category_code,"A code representing the age category of the user (e.g., '18-25', '25-60', 'Over 60')",VARCHAR(15),"18-25, 25-60, Over 60"
+user_category_code,user_category_code,"A code representing the category of the user (e.g., 'Senior Citizen', 'Single Mother', 'Student')",VARCHAR(15),"Senior Citizen, Single Mother, Student"
+user_address_id,user_address_id,A foreign key linking the user to their address in the `Addresses` table,INTEGER,"5, 6, 15, 4, 10"
+is_buyer,is_buyer,"A flag indicating whether the user is a buyer (1 for yes, empty for no)",VARCHAR(1),"1, "
+is_seller,is_seller,"A flag indicating whether the user is a seller (1 for yes, empty for no)",VARCHAR(1),", 1"
+login_name,login_name,The username used by the user to log into the system,VARCHAR(25),"dolor, et, repellat, laboriosam, corrupti"
+password,password,The password used by the user to log into the system (hashed or encrypted),VARCHAR(8),"a9dc84fe, 7daed599, 7061d718, f78651d8, 073f78a2"
+date_registered,date_registered,The date and time when the user registered in the system,DATETIME,"1980-12-28 20:26:12, 1985-06-02 00:10:47, 1977-09-28 23:37:31, 2016-12-01 10:47:14, 1975-12-17 05:04:32"
+first_name,first_name,The first name of the user,VARCHAR(80),"Madonna, Miguel, Robbie, Phoebe, Brielle"
+middle_name,middle_name,The middle name of the user (if applicable),VARCHAR(80),"Kristoffer, Dovie, Angelo, Mike, Mariane"
+last_name,last_name,The last name of the user,VARCHAR(80),"Jaskolski, Harber, Keeling, Kohler, Haley"
+other_user_details,other_user_details,"Additional details about the user, if any",VARCHAR(255),None

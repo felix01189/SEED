@@ -1,0 +1,4 @@
+original_column_name,column_name,column_description,data_format,value_description
+Id,Id,"A unique identifier for each customer, represented as an integer",INTEGER,"1, 2, 3, 4, 5"
+LastName,LastName,"The last name of the customer, stored as text",TEXT,"LOGAN, ARZT, ESPOSITA, ENGLEY, DUNLOW"
+FirstName,FirstName,"The first name of the customer, stored as text",TEXT,"JULIET, TERRELL, TRAVIS, SIXTA, OSVALDO"

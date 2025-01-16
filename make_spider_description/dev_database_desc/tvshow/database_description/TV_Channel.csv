@@ -1,0 +1,10 @@
+original_column_name,column_name,column_description,data_format,value_description
+id,id,"A unique identifier for each TV channel, represented as text (e.g., 700, 701)",TEXT,"700, 701, 703, 704, 705"
+series_name,series_name,"The name of the TV channel or series (e.g., Sky Radio, MTV Hits)",TEXT,"Sky Radio, Sky Music, Music Box Italia, MTV Hits, MTV Classic"
+Country,Country,"The country where the TV channel is based or primarily broadcast (e.g., Italy, United Kingdom)",TEXT,"Italy, United Kingdom, Poland"
+Language,Language,"The primary language used in the TV channel's content (e.g., Italian, English)",TEXT,"Italian, English"
+Content,Content,"The type of content typically broadcast on the channel (e.g., music)",TEXT,music
+Pixel_aspect_ratio_PAR,Pixel_aspect_ratio_PAR,"The pixel aspect ratio of the channel's broadcast, indicating the display format (e.g., 4:3, 16:9)",TEXT,"4:3, 4:3 / 16:9, 16:9"
+Hight_definition_TV,Hight_definition_TV,"Indicates whether the channel is available in high definition (e.g., yes, no)",TEXT,"no, yes"
+Pay_per_view_PPV,Pay_per_view_PPV,"Indicates whether the channel offers pay-per-view services (e.g., no)",TEXT,no
+Package_Option,Package_Option,"The subscription package or option required to access the channel (e.g., Sky Famiglia, no (FTV))",TEXT,"Sky Famiglia, no ( FTV ), Sky Famiglia + Sky HD, Option"

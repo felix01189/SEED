@@ -1,0 +1,3 @@
+original_column_name,column_name,column_description,data_format,value_description
+author_name,author_name,"stores the full name of the author, which can include titles like 'Dr.', 'Mr.', or 'Prof.', and is a VARCHAR(255) type, meaning it can store up to 255 characters",VARCHAR(255),"Addison Denesik, Adeline Wolff, Antwon Krajcik V, Beverly Bergnaum MD, Bianka Cummings"
+other_details,other_details,"intended to store any additional information about the author, though the schema does not specify what this information might be",VARCHAR(255),

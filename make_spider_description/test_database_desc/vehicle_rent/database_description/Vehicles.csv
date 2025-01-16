@@ -1,0 +1,11 @@
+original_column_name,column_name,column_description,data_format,value_description
+id,id,Unique identifier for each vehicle in the database,INT,"1, 2, 3, 4, 5"
+name,name,"The name or model of the vehicle (e.g., Chevrolet Spark EV, Honda Fit EV)",TEXT,"Chevrolet Spark EV, Honda Fit EV, Fiat 500e, Nissan Leaf, Mitsubishi i"
+Model_year,Model_year,"The year the vehicle model was released (e.g., 2014, 2013)",INT,"2014, 2013, 2012, 2011"
+Type_of_powertrain,Type_of_powertrain,"The type of powertrain the vehicle uses (e.g., Electric, hybrid)",TEXT,"Electric, hybrid, electric"
+Combined_fuel_economy_rate,Combined_fuel_economy_rate,"The combined fuel economy rate of the vehicle, measured in miles per gallon equivalent (MPGe)",INT,"119, 118, 116, 115, 112"
+City_fuel_economy_rate,City_fuel_economy_rate,"The fuel economy rate of the vehicle in city driving conditions, measured in MPGe",INT,"128, 132, 122, 129, 126"
+Highway_fuel_economy_rate,Highway_fuel_economy_rate,"The fuel economy rate of the vehicle in highway driving conditions, measured in MPGe",INT,"109, 105, 108, 102, 99"
+Cost_per_25_miles,Cost_per_25_miles,"The estimated cost to drive the vehicle for 25 miles, measured in dollars",REAL,"0.87, 0.9, 0.96, 0.99"
+Annual_fuel_cost,Annual_fuel_cost,"The estimated annual fuel cost for the vehicle, measured in dollars",REAL,"500.0, 550.0, 600.0"
+Notes,Notes,"Additional notes or comments about the vehicle (e.g., 'best selling of the year')",TEXT,"See (1), best selling of the year, See (2)"

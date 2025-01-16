@@ -1,0 +1,4 @@
+original_column_name,column_name,column_description,data_format,value_description
+feature_id,feature_id,"the primary key, uniquely identifying each feature",INTEGER,"1, 2, 3, 4, 5"
+feature_name,feature_name,"stores the name of the feature (e.g., 'kitchen', 'rooftop')",VARCHAR(80),"kichen, rooftop, garden, swimming pool, high building"
+feature_description,feature_description,"provides a brief description of the feature, which could include additional details or characteristics",VARCHAR(80),"ea, vel, et, id, facere"

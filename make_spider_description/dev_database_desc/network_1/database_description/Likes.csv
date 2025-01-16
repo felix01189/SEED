@@ -1,0 +1,3 @@
+original_column_name,column_name,column_description,data_format,value_description
+student_id,student_id,represents the ID of the student who likes another student,INT,"1025, 1247, 1316, 1501, 1641"
+liked_id,liked_id,represents the ID of the student who is liked by the student in `student_id`,INT,"1709, 1689, 1247, 1468, 1304"

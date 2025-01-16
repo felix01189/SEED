@@ -1,0 +1,3 @@
+original_column_name,column_name,column_description,data_format,value_description
+detention_type_code,detention_type_code,"a unique code representing the type of detention (e.g., 'After School', 'Break', 'Illness', 'Lunch')",CHAR(10),"After School, Break, Illness, Lunch"
+detention_type_description,detention_type_description,"provides a brief description of the detention type (e.g., 'After School', 'On break', 'Leave for illness', 'During lunchtime')",VARCHAR(80),"After School, On break, Leave for illness, During lunchtime"

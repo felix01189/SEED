@@ -1,0 +1,4 @@
+original_column_name,column_name,column_description,data_format,value_description
+city1_code,city1_code,the code of the first city,varchar(3),"BAL, ATL, BKK, BOS, CHI"
+city2_code,city2_code,the code of the second city,varchar(3),"ATL, BAL, BKK, BOS, CHI"
+distance,distance,"the direct distance between the two cities in some unit, likely kilometers or miles",INTEGER,"576, 0, 9631, 370, 621"

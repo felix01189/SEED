@@ -1,0 +1,4 @@
+original_column_name,column_name,column_description,data_format,value_description
+Collection_ID,Collection_ID,"A unique identifier for a collection, referencing the `Collections` table",INTEGER,"6, 7"
+Related_Collection_ID,Related_Collection_ID,"A unique identifier for a related collection, also referencing the `Collections` table",INTEGER,"6, 7"
+Collection_Subset_ID,Collection_Subset_ID,"A unique identifier for a subset within a collection, referencing the `Collection_Subsets` table",INTEGER,"717, 981, 851"

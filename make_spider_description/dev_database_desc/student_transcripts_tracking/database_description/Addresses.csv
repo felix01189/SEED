@@ -1,0 +1,10 @@
+original_column_name,column_name,column_description,data_format,value_description
+address_id,address_id,A unique identifier for each address record,INTEGER,"1, 2, 3, 4, 5"
+line_1,line_1,"The primary street address line, e.g., '2294 Grant Square Apt. 235'",VARCHAR(255),"2294 Grant Square Apt. 235, 3999 Aufderhar Ways Suite 593, 67942 Carlotta Ferry Apt. 686, 0144 Lamar Plaza Apt. 346, 858 Peggie Bypass Suite 212"
+line_2,line_2,"The secondary street address line, often for apartment or suite numbers, e.g., 'Apt. 370'",VARCHAR(255),"Apt. 370, Apt. 388, Apt. 583, Suite 703, Apt. 335"
+line_3,line_3,"An optional tertiary street address line, typically null",VARCHAR(255),None
+city,city,"The city or town associated with the address, e.g., 'Port Chelsea'",VARCHAR(255),"Port Chelsea, Lake Laishafurt, Goodwinhaven, Port Evanston, Michelleburgh"
+zip_postcode,zip_postcode,"The postal code or ZIP code for the address, e.g., '148'",VARCHAR(20),"148, 943, 541, 847, 446"
+state_province_county,state_province_county,"The state, province, or county associated with the address, e.g., 'Virginia'",VARCHAR(255),"Virginia, Kentucky, Kansas, Washington, Hawaii"
+country,country,"The country associated with the address, e.g., 'Iceland'",VARCHAR(255),"Iceland, Burundi, Saudi Arabia, Angola, Haiti"
+other_address_details,other_address_details,"Additional details about the address, typically null",VARCHAR(255),None

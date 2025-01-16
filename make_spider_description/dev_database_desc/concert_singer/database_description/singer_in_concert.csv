@@ -1,0 +1,3 @@
+original_column_name,column_name,column_description,data_format,value_description
+concert_ID,concert_ID,"references the 'concert_ID' in the 'concert' table, indicating the specific concert",INT,"1, 2, 3, 4, 5"
+Singer_ID,Singer_ID,"references the 'Singer_ID' in the 'singer' table, indicating the specific singer who performed in that concert",TEXT,"2, 3, 5, 6, 4"

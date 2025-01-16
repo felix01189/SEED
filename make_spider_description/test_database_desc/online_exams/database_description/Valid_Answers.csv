@@ -1,0 +1,4 @@
+original_column_name,column_name,column_description,data_format,value_description
+Valid_Answer_ID,Valid_Answer_ID,"the primary key, uniquely identifying each valid answer",INTEGER,"1, 2, 3, 4, 5"
+Question_ID,Question_ID,"a foreign key referencing the `Questions` table, linking the valid answer to a specific question",INTEGER,"321, 721, 996, 839, 285"
+Valid_Answer_Text,Valid_Answer_Text,contains the text of the correct answer for the corresponding question,VARCHAR(255),"ABC, C"

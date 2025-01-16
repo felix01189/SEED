@@ -1,0 +1,6 @@
+original_column_name,column_name,column_description,data_format,value_description
+id,id,A unique identifier for each song in the contest,INT,"1, 2, 3, 4, 5"
+language,language,The language in which the song is performed,TEXT,"English , Russian, English , Hebrew , Arabic, French, French , English, Croatian"
+original_artist,original_artist,The name of the original artist who performed the song,TEXT,"Sasha Son, Noa and Mira Awad, Patricia Kaas, Malena Ernman, Igor Cukrov feat. Andrea"
+name,name,The name of the song,TEXT," Love ,  There Must Be Another Way ,  Et s\'il fallait le faire ,  La voix ,  Lijepa Tena "
+english_translation,english_translation,"The English translation of the song's title, if available",TEXT,"?? And if it had to be done, The voice, Beautiful Tena, All the streets of love"

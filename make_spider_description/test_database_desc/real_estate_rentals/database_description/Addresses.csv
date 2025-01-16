@@ -1,0 +1,10 @@
+original_column_name,column_name,column_description,data_format,value_description
+address_id,address_id,"A unique identifier for each address, used as the primary key",INTEGER,"1, 2, 3, 4, 5"
+line_1_number_building,line_1_number_building,"The first line of the address, typically including the building number and street name",VARCHAR(80),"6207 Marks Trafficway, 518 Dean Village, 88324 Medhurst Parkway Suite 832, 44916 Hand Branch, 929 Hermiston Vista Suite 955"
+line_2_number_street,line_2_number_street,"The second line of the address, often used for apartment or suite numbers",VARCHAR(80),"Apt. 516, Apt. 261, Suite 435, Apt. 237, Apt. 235"
+line_3_area_locality,line_3_area_locality,"The third line of the address, used for additional locality information, if applicable",VARCHAR(80),None
+town_city,town_city,The town or city where the property is located,VARCHAR(80),"Port Miafurt, New Juliana, Jaquanmouth, New Augusta, New Zachariahport"
+zip_postcode,zip_postcode,The postal code or ZIP code for the property's location,VARCHAR(20),"349, 979, 937, 385, 416"
+county_state_province,county_state_province,"The county, state, or province where the property is located",VARCHAR(80),"Utah, Maryland, RhodeIsland, Alaska, Louisiana"
+country,country,The country where the property is located,VARCHAR(50),"United States Minor Outlying Islands, South Georgia and the South Sandwich Islands, Hungary, Jersey, Western Sahara"
+other_address_details,other_address_details,Any additional details about the address that are not covered by the other columns,VARCHAR(255),None

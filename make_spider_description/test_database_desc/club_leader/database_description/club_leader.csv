@@ -1,0 +1,4 @@
+original_column_name,column_name,column_description,data_format,value_description
+Club_ID,Club_ID,"a foreign key referencing the `Club_ID` in the `club` table, identifying the club",INT,"1, 4, 6, 8, 10"
+Member_ID,Member_ID,"a foreign key referencing the `Member_ID` in the `member` table, identifying the member",INT,"1988, 1990, 1985, 1999, 1984"
+Year_Join,Year_Join,records the year the member joined the club,TEXT,"2018, 2017, 2015"

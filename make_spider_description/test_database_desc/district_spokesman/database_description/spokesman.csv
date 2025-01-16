@@ -1,0 +1,7 @@
+original_column_name,column_name,column_description,data_format,value_description
+Spokesman_ID,Spokesman_ID,"A unique identifier for each spokesman, used as the primary key",INT,"1, 3, 4, 5, 6"
+Name,Name,The full name of the spokesman,TEXT,"Rocco Granata, Elvis Presley, Lolita, Connie Francis, Don Gibson"
+Age,Age,The age of the spokesman in years,INT,"45, 29, 32, 47, 46"
+Speach_title,Speach_title,The title of the speech delivered by the spokesman,TEXT,"Life and Freedom, Now or Never, Happiness, Everybody's Somebody's Fool, I Can't Stop Loving my People"
+Rank_position,Rank_position,"The rank or position of the spokesman, represented as a numerical value",REAL,"1.0, 2.0, 3.0, 4.0"
+Points,Points,"The points or score associated with the spokesman, likely reflecting their performance or achievements",REAL,"498.0, 438.0, 402.0, 365.0, 358.0"

@@ -1,0 +1,4 @@
+original_column_name,column_name,column_description,data_format,value_description
+Receipt,Receipt,represents the receipt number associated with the purchase,INTEGER,"10013, 11548, 11891, 11923, 12396"
+Ordinal,Ordinal,"indicates the position of the item in the receipt (e.g., 1st, 2nd, etc.)",INTEGER,"1, 2, 3, 4, 5"
+Item,Item,"contains the ID of the product purchased, which corresponds to the 'Id' column in the 'goods' table",TEXT,"70-TU, 90-APIE-10, 90-CH-PF, 90-APP-11, 26-8x10"

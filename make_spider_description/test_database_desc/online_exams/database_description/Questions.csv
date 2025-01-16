@@ -1,0 +1,4 @@
+original_column_name,column_name,column_description,data_format,value_description
+Question_ID,Question_ID,a unique identifier for each question,INTEGER,"285, 321, 585, 603, 613"
+Type_of_Question_Code,Type_of_Question_Code,"the type of question, such as Single Choice or Multiple Choice",VARCHAR(15),"Single Choice, Multiple Choice, Free Text"
+Question_Text,Question_Text,the text of the question itself,VARCHAR(255),"When is middle age period, Who are from Renaissance age, Which are the works from Picasso, Which are the works from Van Gogh, Which are answers for the blanks in the passage"

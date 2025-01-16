@@ -1,0 +1,8 @@
+original_column_name,column_name,column_description,data_format,value_description
+Headphone_ID,Headphone_ID,A unique identifier for each headphone model in the database,INT,"1, 2, 3, 4, 5"
+Model,Model,The name or model number of the headphone,TEXT,"iGrado, SR60i, SR80i, SR125i, SR225i"
+Class,Class,"The category or tier of the headphone, such as Prestige, Reference, Statement, or Professional",TEXT,"Prestige, Reference, Statement, Professional"
+Driver-matched_dB,Driver-matched_dB,"The decibel level indicating how closely matched the drivers are, typically a small decimal value",REAL,"0.1, 0.05"
+Construction,Construction,"The materials used in the construction of the headphone, such as plastic, aluminum alloy, or hand-crafted mahogany",TEXT,"Plastic, Aluminum alloy/ Plastic inner sleeve, Hand-Crafted Mahogany, Hand-Crafted Mahogany / Aluminum"
+Earpads,Earpads,"The type of earpads used on the headphone, such as Comfort Pads, Bowls, or Circumaural Bowls",TEXT,"Comfort Pads, Bowls, Circumaural Bowls"
+Price,Price,"The price of the headphone in integer format, representing the cost in a specific currency",INT,"49, 79, 99, 150, 200"

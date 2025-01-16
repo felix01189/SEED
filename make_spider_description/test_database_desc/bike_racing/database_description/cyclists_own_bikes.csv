@@ -1,0 +1,4 @@
+original_column_name,column_name,column_description,data_format,value_description
+cyclist_id,cyclist_id,"references the 'id' in the 'cyclist' table, indicating which cyclist owns the bike",INT,"1, 2, 3, 4, 5"
+bike_id,bike_id,"references the 'id' in the 'bike' table, indicating which bike is owned by the cyclist",INT,"2, 3, 4, 5, 1"
+purchase_year,purchase_year,indicates the year the bike was purchased by the cyclist,INT,"2011, 2015, 2017, 2013, 2018"

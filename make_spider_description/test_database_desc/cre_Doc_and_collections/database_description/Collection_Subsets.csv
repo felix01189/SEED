@@ -1,0 +1,4 @@
+original_column_name,column_name,column_description,data_format,value_description
+Collection_Subset_ID,Collection_Subset_ID,a unique identifier for each collection subset,INTEGER,"684, 717, 741, 813, 851"
+Collection_Subset_Name,Collection_Subset_Name,the name of the collection subset,VARCHAR(255),"UK album, US album, Canadian album, History collection, Art collection"
+Collecrtion_Subset_Details,Collecrtion_Subset_Details,"additional details about the collection subset, though the column name appears to have a typo",VARCHAR(255),

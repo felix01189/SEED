@@ -1,0 +1,6 @@
+original_column_name,column_name,column_description,data_format,value_description
+ranking_date,ranking_date,The date on which the ranking was recorded,DATE,"20000101, 20000103, 20000110, 20000117, 20000124"
+ranking,ranking,The rank of the player on the specified date,INT,"3, 4, 28, 31, 43"
+player_id,player_id,"The unique identifier of the player, referencing the `players` table",INT,"200748, 200033, 200020, 200124, 200120"
+ranking_points,ranking_points,The number of ranking points the player has on the specified date,INT,"4378, 3021, 960, 834, 698"
+tours,tours,"The number of tours the player has participated in, which may influence their ranking",INT,"13, 15, 0, 8, 6"

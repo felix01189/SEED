@@ -1,0 +1,7 @@
+original_column_name,column_name,column_description,data_format,value_description
+city_code,city_code,"a unique identifier for each city, represented as a 3-character string",VARCHAR(3),"ATL, BAL, BKK, BOS, CHI"
+city_name,city_name,stores the name of the city as a string with a maximum length of 25 characters,VARCHAR(25),"Baltimore, Pittsburgh, Philadelphia, Washington, New York"
+state,state,"indicates the state or region where the city is located, represented as a 2-character string",VARCHAR(2),"MD, PA, DC, NY, GA"
+country,country,"specifies the country of the city, stored as a string with a maximum length of 25 characters",VARCHAR(25),"USA, CANADA, INDIA, CHINA, JAPAN"
+latitude,latitude,"store the geographical coordinates of the city as floating-point numbers, representing its position on the Earth's surface",FLOAT,"39.288, 40.437, 39.95, 38.892, 40.849"
+longitude,longitude,"store the geographical coordinates of the city as floating-point numbers, representing its position on the Earth's surface",FLOAT,"-76.617, -80.0, -75.15, -77.017, -73.867"

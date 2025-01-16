@@ -1,0 +1,3 @@
+original_column_name,column_name,column_description,data_format,value_description
+Customer_ID,Customer_ID,an integer that uniquely identifies each customer,INTEGER,"12, 32, 78, 93, 98"
+Customer_Details,Customer_Details,a string that stores the name or other identifying information of the customer,VARCHAR(255),"Amalia Johnston, Miss Annamarie Lowe, Miss Alexandra Kemmer MD, Agustina Stoltenberg, Dr. Jessyca Roob"

@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+Employee_ID,Employee_ID,a unique identifier for each employee,INT,"1, 2, 3, 4, 5"
+Name,Name,the full name of the employee,TEXT,"George Chuter, Lee Mears, Mark Regan, Jason Hobson, Tim Payne"
+Age,Age,the age of the employee,INT,"23, 29, 43, 30, 28"
+City,City,the city where the employee resides,TEXT,"Bristol, Bath, Wasps, Sale, Leicester"

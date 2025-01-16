@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+order_item_id,order_item_id,"the primary key, uniquely identifying each item in an order",INTEGER,"1, 2, 3, 4, 5"
+product_id,product_id,"a foreign key referencing the `Products` table, indicating which product is included in the order",INTEGER,"4, 3, 2, 1, 5"
+order_id,order_id,"a foreign key referencing the `Orders` table, linking the item to a specific order",INTEGER,"8, 4, 7, 10, 3"
+order_item_status_code,order_item_status_code,"provides the status of the item, such as whether it has been delivered or is out of stock",VARCHAR(10),"Delivered, Out of Stock"

@@ -1,0 +1,3 @@
+original_column_name,column_name,column_description,data_format,value_description
+Channel_ID,Channel_ID,a unique identifier for each channel,INTEGER,"16, 45, 55, 65, 78"
+Channel_Details,Channel_Details,"contains descriptive information about the channel, such as its name or type",VARCHAR(255),"15 ij, 75 ww, 92 ve, 40 zy, 13 ik"

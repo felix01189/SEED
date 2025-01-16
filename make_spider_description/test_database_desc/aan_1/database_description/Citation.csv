@@ -1,0 +1,3 @@
+original_column_name,column_name,column_description,data_format,value_description
+paper_id,paper_id,the ID of the citing paper,varchar(25),"A00-1001, A00-1002, A00-1003, A00-1004, A00-1005"
+cited_paper_id,cited_paper_id,the ID of the paper being cited,varchar(25),"A00-1002, A00-1004, A00-1005, A00-1006, A00-1007"

@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+Collection_ID,Collection_ID,a unique identifier for each collection,INTEGER,"6, 7"
+Parent_Collection_ID,Parent_Collection_ID,"the ID of the parent collection, if applicable",INTEGER,6
+Collection_Name,Collection_Name,the name of the collection,VARCHAR(255),"Best, Nice"
+Collection_Description,Collection_Description,a description or additional details about the collection,VARCHAR(255),None

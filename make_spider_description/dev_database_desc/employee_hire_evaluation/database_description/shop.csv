@@ -1,0 +1,7 @@
+original_column_name,column_name,column_description,data_format,value_description
+Shop_ID,Shop_ID,"A unique identifier for each shop, represented as an integer",INT,"1, 2, 3, 4, 5"
+Name,Name,"The name of the shop, represented as text",TEXT,"FC Haka, HJK, FC Honka, FC Inter, FF Jaro"
+Location,Location,"The city or area where the shop is located, represented as text",TEXT,"Valkeakoski, Helsinki, Espoo, Turku, Jakobstad"
+District,District,"The specific district or area within the location where the shop is situated, represented as text",TEXT,"Tehtaan kenttä, Finnair Stadium, Tapiolan Urheilupuisto, Veritas Stadion, Jakobstads Centralplan"
+Number_products,Number_products,"The total number of products available in the shop, represented as an integer",INT,"3516, 10770, 6000, 10000, 5000"
+Manager_name,Manager_name,"The name of the manager responsible for the shop, represented as text",TEXT,"Olli Huttunen, Antti Muurinen, Mika Lehkosuo, Job Dragtsma, Mika Laurikainen"

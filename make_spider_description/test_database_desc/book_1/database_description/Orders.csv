@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+IdOrder,IdOrder,unique identifier for each order,CHAR(10),"0000001P, 0000002P, 0000003P, 0000004P, 0000005P"
+IdClient,IdClient,references the client who placed the order,CHAR(10),"0000001, 0000002, 0000004, 0000005, 0000003"
+DateOrder,DateOrder,date the order was placed,DATE,None
+DateExped,DateExped,date the order was shipped,DATE,None

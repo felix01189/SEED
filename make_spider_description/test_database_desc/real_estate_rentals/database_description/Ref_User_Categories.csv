@@ -1,0 +1,3 @@
+original_column_name,column_name,column_description,data_format,value_description
+user_category_code,user_category_code,the primary key and represents a unique identifier for each user category,VARCHAR(15),"Senior Citizen, Single Mother, Student"
+user_category_description,user_category_description,"provides a brief description of the user category, such as 'Student', 'Senior Citizen', or 'Single Mother'",VARCHAR(80),"Student, Senior Citizen, Single Mother"

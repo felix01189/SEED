@@ -1,0 +1,3 @@
+original_column_name,column_name,column_description,data_format,value_description
+StuID,StuID,"represents the unique identifier of a student, linking to the `Student` table",INTEGER,"1001, 1002"
+PetID,PetID,"represents the unique identifier of a pet, linking to the `Pets` table",INTEGER,"2001, 2002, 2003"

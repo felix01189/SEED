@@ -1,0 +1,18 @@
+set -e
+
+dataset_json_path="./data/bird/dev/dev.json"
+db_path="./data/bird/dev/dev_databases"
+output_path="./bird_dev_seed_evi.json"
+train_json_path="./data/bird/train/train.json"
+train_db_path="./data/bird/train/train_databases"
+top_k=1
+openai_api_key=`cat openai_api_key`
+
+python make_evidence.py \
+--dataset_json_path $dataset_json_path \
+--db_path $db_path \
+--output_path $output_path \
+--train_json_path $train_json_path \
+--train_db_path $train_db_path \
+--top_k $top_k \
+--openai_api_key $openai_api_key

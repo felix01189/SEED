@@ -1,0 +1,7 @@
+original_column_name,column_name,column_description,data_format,value_description
+student_address_id,student_address_id,A unique identifier for each student-address relationship,INTEGER,"11, 15, 20, 23, 33"
+address_id,address_id,"A foreign key referencing the `address_id` in the `Addresses` table, indicating the specific address associated with the student",INTEGER,"94, 76, 97, 72, 98"
+address_type_code,address_type_code,"A foreign key referencing the `address_type_code` in the `Ref_Address_Types` table, indicating the type of address (e.g., Home, College)",CHAR(10),"HM, CO"
+student_id,student_id,"A foreign key referencing the `student_id` in the `Students` table, indicating the student associated with the address",INTEGER,"984, 415, 777, 361, 762"
+date_from,date_from,The start date when the address became valid for the student,DATETIME(3),"2011-06-29 09:45:39.000, 2011-10-04 09:58:41.000, 2015-02-01 00:20:42.000, 2015-03-14 15:55:46.000, 2017-05-18 23:15:01.000"
+date_to,date_to,The end date when the address was no longer valid for the student,DATETIME(3),"2018-03-22 07:50:48.000, 2018-03-14 18:32:37.000, 2018-03-04 09:58:38.000, 2018-03-08 08:41:07.000, 2018-03-20 08:06:53.000"

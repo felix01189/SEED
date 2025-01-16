@@ -1,0 +1,4 @@
+original_column_name,column_name,column_description,data_format,value_description
+Director_ID,Director_ID,a unique identifier for each director,INT,"1, 2, 3, 4, 5"
+Name,Name,the name of the director,TEXT,"DeSean Jackson, Hank Baskett, Greg Lewis, Brent Celek, Correll Buckhalter"
+Age,Age,the age of the director,INT,"60, 90, 52, 44, 59"

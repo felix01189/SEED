@@ -1,0 +1,4 @@
+original_column_name,column_name,column_description,data_format,value_description
+Rank,Rank,"The rank of the university for a specific major, where lower numbers indicate higher rankings",INT,"1, 2, 3, 4"
+University_ID,University_ID,"The unique identifier for the university, referencing the `University_ID` in the `university` table",INT,"1, 2, 3, 4"
+Major_ID,Major_ID,"The unique identifier for the major, referencing the `Major_ID` in the `major` table",INT,"1, 5, 3, 4"

@@ -1,0 +1,6 @@
+original_column_name,column_name,column_description,data_format,value_description
+Channel_ID,Channel_ID,"A unique identifier for each television channel, represented as an integer",INT,"1, 2, 3, 4, 5"
+Name,Name,"The name of the television channel, represented as text (e.g., BBC One, ITV)",TEXT,"BBC One, ITV, BBC Two, Channel 4, Channel 5"
+Analogue_terrestrial_channel,Analogue_terrestrial_channel,"The channel number on analogue terrestrial television, represented as text (e.g., '1' for BBC One). If unavailable, it is marked as 'unavailable'",TEXT,"1, 3, 2, 4, 5"
+Digital_terrestrial_channel,Digital_terrestrial_channel,"The channel number on digital terrestrial television, represented as text (e.g., 'HD' or '2'). If unavailable, it is marked as 'unavailable'",TEXT,"HD, 2, 8, 44, 10"
+Internet,Internet,"The website or online platform where the channel can be accessed, represented as text (e.g., 'bbc.co.uk'). If unavailable, it is marked as 'unavailable'",TEXT,"bbc.co.uk, ITV - itv.com, channel4.com, unavailable, itv.com"

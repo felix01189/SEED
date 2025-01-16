@@ -1,0 +1,4 @@
+original_column_name,column_name,column_description,data_format,value_description
+invoice_number,invoice_number,a unique identifier for each invoice,INTEGER,"1, 2, 3, 4, 5"
+invoice_status_code,invoice_status_code,"the status of the invoice, e.g., 'Paid' or 'Issued'",VARCHAR(10),"Paid, Issued"
+invoice_date,invoice_date,the date and time when the invoice was created,DATETIME,"2018-03-09 07:16:07, 2018-01-28 20:08:22, 2018-02-13 02:16:55, 2018-03-11 02:04:42, 2018-03-14 11:58:55"

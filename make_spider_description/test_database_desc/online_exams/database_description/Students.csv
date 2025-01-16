@@ -1,0 +1,10 @@
+original_column_name,column_name,column_description,data_format,value_description
+Student_ID,Student_ID,"A unique identifier for each student, used as the primary key",INTEGER,"5, 6, 11, 15, 17"
+First_Name,First_Name,The first name of the student,VARCHAR(255),"Wilbert, Abdul, Ari, Cassidy, Alfreda"
+Middle_Name,Middle_Name,"The middle name of the student, if applicable",VARCHAR(255),"Mia, Era, Jacinthe, Karson, Queen"
+Last_Name,Last_Name,The last name of the student,VARCHAR(255),"Conroy, Renner, Kessler, Gerhold, Schuster"
+Gender_MFU,Gender_MFU,"The gender of the student, represented by a single character (F for Female, M for Male, U for Unknown/Unspecified)",CHAR(1),"F, M, U"
+Student_Address,Student_Address,The physical address of the student,VARCHAR(255),"2908 Breana Streets Suite 638, 009 Vandervort Ferry, 053 Candido Port Suite 568, 25250 Alexander Spring Apt. 106, 1110 Kaylee Greens Apt. 491"
+Email_Adress,Email_Adress,The email address of the student,VARCHAR(255),"rjast@example.com, green.jesus@example.net, oschamberger@example.net, alvera52@example.com, bogan.barton@example.net"
+Cell_Mobile_Phone,Cell_Mobile_Phone,The mobile phone number of the student,VARCHAR(255),"620.962.4384x340, 03437137203, 207-458-7971, 1-077-467-7564, 038-482-3730x66922"
+Home_Phone,Home_Phone,The home phone number of the student,VARCHAR(255),"017-084-5752x96504, (054)515-8842x4046, 220.735.2352x52387, 715.670.8396x276, 1-400-038-3818x39652"

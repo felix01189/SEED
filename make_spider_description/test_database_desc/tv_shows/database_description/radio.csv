@@ -1,0 +1,8 @@
+original_column_name,column_name,column_description,data_format,value_description
+Radio_ID,Radio_ID,Unique identifier for each radio station,INT,"1, 2, 3, 4, 5"
+Transmitter,Transmitter,The location or name of the transmitter used by the radio station,TEXT,"Cairn Hill, Clermont Carn, Kippure, Maghera, Mount Leinster"
+Radio_MHz,Radio_MHz,The frequency in megahertz (MHz) at which the radio station broadcasts,TEXT,"89.8, 87.8, 89.1, 88.8, 89.6"
+2FM_MHz,2FM_MHz,"The frequency in MHz for the 2FM radio channel, if applicable (otherwise 'N/A')",TEXT,"N/A, 97.0, 91.3, 91.0, 91.8"
+RnaG_MHz,RnaG_MHz,"The frequency in MHz for the RnaG radio channel, if applicable (otherwise 'N/A')",TEXT,"N/A, 102.7, 93.5, 93.2, 94.0"
+Lyric_FM_MHz,Lyric_FM_MHz,"The frequency in MHz for the Lyric FM radio channel, if applicable (otherwise 'N/A')",TEXT,"N/A, 95.2, 98.7, 98.4, 99.2"
+ERP_kW,ERP_kW,The effective radiated power in kilowatts (kW) of the radio station's transmitter,TEXT,"16, 40, 160, 100, 12.5"

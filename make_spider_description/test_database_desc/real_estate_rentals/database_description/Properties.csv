@@ -1,0 +1,16 @@
+original_column_name,column_name,column_description,data_format,value_description
+property_id,property_id,A unique identifier for each property,INTEGER,"1, 2, 3, 4, 5"
+property_address_id,property_address_id,Foreign key referencing the address of the property in the 'Addresses' table,INTEGER,"9, 8, 7, 12, 4"
+owner_user_id,owner_user_id,Foreign key referencing the user who owns the property in the 'Users' table,INTEGER,"13, 5, 10, 7, 9"
+property_type_code,property_type_code,"Foreign key referencing the type of property (e.g., flat, house) in the 'Ref_Property_Types' table",VARCHAR(15),"7, 8, 2"
+date_on_market,date_on_market,The date and time when the property was listed on the market,DATETIME,"2015-06-16 01:43:42, 2014-10-10 10:17:36, 2011-12-15 01:52:28, 1971-01-17 04:08:35, 1996-12-17 20:53:52"
+date_off_market,date_off_market,The date and time when the property was taken off the market,DATETIME,"1978-11-17 22:49:30, 2006-09-25 06:39:14, 2017-05-27 20:55:25, 1971-08-25 01:13:02, 2000-03-16 23:04:27"
+property_name,property_name,"The name or title of the property (e.g., garden, studio)",VARCHAR(80),"garden, studio, park, house, garage"
+property_description,property_description,A brief description of the property,VARCHAR(255),"dolores, quis, facere, ut, perspiciatis"
+garage_yn,garage_yn,"Indicates whether the property has a garage (1 for yes, empty for no)",VARCHAR(1),"1, "
+parking_lots,parking_lots,"Indicates whether the property has parking lots (1 for yes, empty for no)",VARCHAR(1),", 1"
+room_count,room_count,The number of rooms in the property,VARCHAR(10),"7, 8, 9, 4, 1"
+vendor_requested_price,vendor_requested_price,The price requested by the vendor for the property,DOUBLE,"2454.682, 409217.49906266, 60571695.39357, 3.009911, 47605468.125659"
+price_min,price_min,The minimum acceptable price for the property,DOUBLE,"20835877.439261, 498.39, 3897.55448, 208147.904976, 335.875884731"
+price_max,price_max,The maximum acceptable price for the property,DOUBLE,"352563032.06431, 55837.914362, 1887.0, 227.624634182, 0.0"
+other_property_details,other_property_details,"Additional details about the property, if any",VARCHAR(255),None

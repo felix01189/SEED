@@ -1,0 +1,12 @@
+original_column_name,column_name,column_description,data_format,value_description
+Institution_ID,Institution_ID,"A unique identifier for each institution, used as the primary key",INT,"1, 2, 3, 4, 5"
+Name,Name,The full name of the educational institution,TEXT,"University of British Columbia, University of Calgary, University of Alberta, University of Saskatchewan, University of Regina"
+Team,Team,The name of the sports team associated with the institution,TEXT,"Thunderbirds, Dinos, Golden Bears, Huskies, Rams"
+City,City,The city where the institution is located,TEXT,"Vancouver, Calgary, Edmonton, Saskatoon, Regina"
+Province,Province,The province or state where the institution is located,TEXT,"BC, AB, SK"
+Founded,Founded,"The year the institution was founded, represented as a real number",REAL,"1908.0, 1966.0, 1907.0, 1911.0"
+Affiliation,Affiliation,"The type of affiliation of the institution, such as 'Public'",TEXT,Public
+Enrollment,Enrollment,"The total number of students enrolled at the institution, represented as a real number",REAL,"43579.0, 28196.0, 36435.0, 19082.0, 12800.0"
+Endowment,Endowment,"The financial endowment of the institution, represented as a text string (e.g., '$1.01B')",TEXT,"$1.01B, $444M, $751M, $136.7M, $25.9M"
+Stadium,Stadium,The name of the stadium associated with the institution's sports team,TEXT,"Thunderbird Stadium, McMahon Stadium, Foote Field, Griffiths Stadium, Mosaic Stadium"
+Capacity,Capacity,"The seating capacity of the stadium, represented as a real number",REAL,"3500.0, 35650.0, 4997.0, 30048.0"

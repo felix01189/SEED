@@ -1,0 +1,4 @@
+original_column_name,column_name,column_description,data_format,value_description
+Store_ID,Store_ID,identifies the store,INT,"1, 2, 3, 4, 5"
+Headphone_ID,Headphone_ID,identifies the headphone model,INT,"6, 2, 3, 1, 4"
+Quantity,Quantity,indicates the number of units of the headphone model available in the store,INT,"100, 170, 34, 50, 116"

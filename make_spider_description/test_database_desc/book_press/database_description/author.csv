@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+Author_ID,Author_ID,"A unique identifier for each author, serving as the primary key for the table",INT,"1, 2, 3, 4, 5"
+Name,Name,"The full name of the author, represented as text",TEXT,"Derrick Kosinski, Evelyn Smith, Johnny Devenanzio, Kenny Santucci, Jenn Grijalva"
+Age,Age,"The age of the author, represented as an integer",INT,"45, 32, 54, 21, 19"
+Gender,Gender,"The gender of the author, represented as text (e.g., Male, Female)",TEXT,"Male, Female"

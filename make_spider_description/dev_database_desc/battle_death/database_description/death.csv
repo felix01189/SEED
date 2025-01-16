@@ -1,0 +1,6 @@
+original_column_name,column_name,column_description,data_format,value_description
+caused_by_ship_id,caused_by_ship_id,foreign key referencing the ship causing the death,INT,"1, 2, 3, 4, 5"
+id,id,unique identifier for each death record,INT,"1, 2, 3, 4, 5"
+note,note,location or description of the death,TEXT,"Dantewada, Chhattisgarh, Erraboru, Chhattisgarh, East Champaran, Bihar, Gajapati, Odisha, Sundargarh, Odisha"
+killed,killed,number of people killed,INT,"8, 3, 25, 2, 0"
+injured,injured,number of people injured,INT,"0, 9, 5"

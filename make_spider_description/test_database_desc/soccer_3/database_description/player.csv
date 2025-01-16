@@ -1,0 +1,8 @@
+original_column_name,column_name,column_description,data_format,value_description
+Player_ID,Player_ID,"A unique identifier for each player, represented as a real number",REAL,"1.0, 2.0, 3.0, 4.0, 5.0"
+Name,Name,The full name of the player,TEXT,"Nick Price, Paul Azinger, Greg Norman, Jim Gallagher, Jr., David Frost"
+Country,Country,The country of origin or nationality of the player,TEXT,"Zimbabwe, United States, Australia, South Africa"
+Earnings,Earnings,"The total earnings of the player, represented as a real number",REAL,"1478557.0, 1458456.0, 1359653.0, 1078870.0, 1030717.0"
+Events_number,Events_number,The number of events or matches the player has participated in,INT,"18, 24, 15, 27, 22"
+Wins_count,Wins_count,The number of wins the player has achieved,INT,"4, 3, 2"
+Club_ID,Club_ID,"A foreign key that references the 'Club_ID' in the 'club' table, indicating the club the player is associated with",INT,"1, 3, 5, 6, 7"

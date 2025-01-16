@@ -1,0 +1,8 @@
+original_column_name,column_name,column_description,data_format,value_description
+Stadium_ID,Stadium_ID,"A unique identifier for each stadium, used as a primary key",INT,"1, 2, 3, 4, 5"
+Location,Location,The geographical location or city where the stadium is situated,TEXT,"Raith Rovers, Ayr United, East Fife, Queen's Park, Stirling Albion"
+Name,Name,The official name of the stadium,TEXT,"Stark's Park, Somerset Park, Bayview Stadium, Hampden Park, Forthbank Stadium"
+Capacity,Capacity,The maximum number of people the stadium can accommodate,INT,"10104, 11998, 2000, 52500, 3808"
+Highest,Highest,The highest recorded attendance at the stadium,INT,"4812, 2363, 1980, 1763, 1125"
+Lowest,Lowest,The lowest recorded attendance at the stadium,INT,"1294, 1057, 533, 466, 404"
+Average,Average,The average attendance at the stadium over a period of time,INT,"2106, 1477, 864, 730, 642"

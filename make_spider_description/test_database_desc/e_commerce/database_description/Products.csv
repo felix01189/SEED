@@ -1,0 +1,8 @@
+original_column_name,column_name,column_description,data_format,value_description
+product_id,product_id,A unique identifier for each product in the system,INTEGER,"1, 2, 3, 4, 5"
+parent_product_id,parent_product_id,"The identifier of the parent product, if this product is a variant or part of a bundle",INTEGER,"8, 3, 1, 6, 2"
+product_name,product_name,The name of the product,VARCHAR(80),"Dell monitor, Dell keyboard, iPhone6s, iWatch, Lenovo keyboard"
+product_price,product_price,"The price of the product, stored as a decimal with up to 4 decimal places","DECIMAL(19,4)","795.62, 104, 560.93, 369.11, 382.67"
+product_color,product_color,"The color of the product, if applicable",VARCHAR(50),"Red, Yellow"
+product_size,product_size,"The size of the product, if applicable",VARCHAR(50),"Medium, Small"
+product_description,product_description,"A brief description of the product, providing additional details",VARCHAR(255),"Latest model!, Keyboard for games!, Second hand!, Designed for sports!, Work smartly!"

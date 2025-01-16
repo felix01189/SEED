@@ -1,0 +1,3 @@
+original_column_name,column_name,column_description,data_format,value_description
+process_status_code,process_status_code,a unique identifier for the status of a process,CHAR(15),"ct, pp"
+process_status_description,process_status_description,provides a descriptive explanation of the status code,VARCHAR(255),"continue, postpone"

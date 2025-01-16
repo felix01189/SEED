@@ -1,0 +1,6 @@
+original_column_name,column_name,column_description,data_format,value_description
+ID,ID,A unique identifier for each city-channel entry,INT,"1, 2, 3, 4, 5"
+City,City,The name of the city where the television station is located,TEXT,"Phoenix, Bakersfield, California, San Diego, Colorado Springs, Colorado, Denver"
+Station_name,Station_name,The name of the television station,TEXT,"KNXV-TV, KERO-TV, KZKC-LP, KGTV, KZSD-LP"
+Owned_Since,Owned_Since,"The year since the station has been owned, represented as a floating-point number",REAL,"1985.0, 2011.0, 1986.0, 1961.0, 1991.0"
+Affiliation,Affiliation,"The network or affiliation of the television station (e.g., ABC, NBC)",TEXT,"ABC, Azteca América, NBC"

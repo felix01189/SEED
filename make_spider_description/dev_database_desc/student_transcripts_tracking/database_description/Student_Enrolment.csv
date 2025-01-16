@@ -1,0 +1,6 @@
+original_column_name,column_name,column_description,data_format,value_description
+student_enrolment_id,student_enrolment_id,A unique identifier for each student enrollment record,INTEGER,"1, 2, 3, 4, 5"
+degree_program_id,degree_program_id,"The ID of the degree program the student is enrolled in, linking to the `Degree_Programs` table",INTEGER,"12, 4, 10, 5, 3"
+semester_id,semester_id,"The ID of the semester in which the student is enrolled, linking to the `Semesters` table",INTEGER,"13, 2, 15, 1, 9"
+student_id,student_id,"The ID of the student, linking to the `Students` table",INTEGER,"14, 9, 7, 1, 4"
+other_details,other_details,An optional field for any additional details related to the student's enrollment,VARCHAR(255),None

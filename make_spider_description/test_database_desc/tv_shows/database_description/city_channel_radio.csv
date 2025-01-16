@@ -1,0 +1,4 @@
+original_column_name,column_name,column_description,data_format,value_description
+City_channel_ID,City_channel_ID,"Foreign key referencing the 'ID' column in the 'city_channel' table, linking a specific city channel to a radio station",INT,"1, 2, 3, 4, 6"
+Radio_ID,Radio_ID,"Foreign key referencing the 'Radio_ID' column in the 'radio' table, linking a specific radio station to a city channel",INT,"1, 2, 3, 4, 6"
+Is_online,Is_online,"Boolean column indicating whether the radio station is available online (T for True, F for False)",bool,"T, F"

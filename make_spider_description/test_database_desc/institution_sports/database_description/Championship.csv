@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+Institution_ID,Institution_ID,"Unique identifier for the institution, linking to the 'institution' table",INT,"1, 2, 3, 4"
+Nickname,Nickname,The nickname or mascot of the institution's sports team,TEXT,"Colonials, Terrapins, Wildcats, Tar Heels"
+Joined,Joined,"The year the institution joined the championship, represented as a real number",REAL,"1993.0, 1994.0, 1995.0"
+Number_of_Championships,Number_of_Championships,"The total number of championships won by the institution, represented as a real number",REAL,"0.0, 1.0, 5.0"

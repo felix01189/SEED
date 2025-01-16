@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+class_id,class_id,A unique identifier for each class enrollment,INTEGER,"114, 195, 235, 248, 294"
+student_id,student_id,"The identifier of the student enrolled in the class, linking to the 'Students' table",INTEGER,"435, 471, 811, 762, 287"
+teacher_id,teacher_id,"The identifier of the teacher assigned to the class, linking to the 'Teachers' table",INTEGER,"253, 274, 282, 252, 234"
+class_details,class_details,"A description of the class, such as the subject or course name (e.g., 'databases', 'math 100')",VARCHAR(255),"databases, english, writing, statistics, math 100"

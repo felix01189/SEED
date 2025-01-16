@@ -1,0 +1,7 @@
+original_column_name,column_name,column_description,data_format,value_description
+Customer_Interaction_ID,Customer_Interaction_ID,A unique identifier for each customer interaction,INTEGER,"13, 21, 71, 117, 169"
+Channel_ID,Channel_ID,"The identifier of the channel through which the interaction occurred, referencing the `Channels` table",INTEGER,"16, 78, 45, 65, 55"
+Customer_ID,Customer_ID,"The identifier of the customer involved in the interaction, referencing the `Customers` table",INTEGER,"98, 12, 295, 103, 119"
+Service_ID,Service_ID,"The identifier of the service requested during the interaction, referencing the `Services` table",INTEGER,"828, 606, 430, 313, 575"
+Status_Code,Status_Code,"The current status of the interaction, such as 'Close', 'Open', or 'Stuck'",CHAR(15),"Close, Open, Stuck"
+Services_and_Channels_Details,Services_and_Channels_Details,Additional details or notes about the services and channels involved in the interaction,VARCHAR(255),"bad, good"

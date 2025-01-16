@@ -1,0 +1,10 @@
+original_column_name,column_name,column_description,data_format,value_description
+paintingID,paintingID,Unique identifier for each painting,INTEGER,"80, 81, 82, 83, 84"
+title,title,The title or name of the painting,TEXT,"A Sunday on La Grande Jatte, Final Study for ""Bathers at Asnieres"", Tree Trunks (study for La Grande Jatte), Abstraction: Background with Blue Cloudy Sky, Head of Young Girl"
+year,year,The year the painting was created,INTEGER,"1884, 1883, 1930, 1945, 1922"
+height_mm,height_mm,The height of the painting in millimeters,INTEGER,"2076, 159, 474, 660, 271"
+width_mm,width_mm,The width of the painting in millimeters,INTEGER,"3080, 251, 615, 492, 210"
+medium,medium,"The material or technique used to create the painting (e.g., oil, conte crayon)",TEXT,"oil, conte crayon, lithograph"
+mediumOn,mediumOn,"The surface or material on which the painting was created (e.g., canvas, panel)",TEXT,"canvas, panel, ivory laid paper, ivory wove paper"
+location,location,The current location or gallery where the painting is displayed,TEXT,"Gallery 240, None, Rice Building Special Exhibition Galleries, Gallery 241, Gallery 273"
+painterID,painterID,"Foreign key linking the painting to the artist who created it, referencing the `artistID` in the `Artists` table",INTEGER,"111, 222, 333, 444, 555"

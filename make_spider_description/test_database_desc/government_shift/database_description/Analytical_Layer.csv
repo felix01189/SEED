@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+Analytical_ID,Analytical_ID,"A unique identifier for each record in the Analytical_Layer table, serving as the primary key",INTEGER,"11, 12, 17, 32, 36"
+Customers_and_Services_ID,Customers_and_Services_ID,"A foreign key referencing the Customers_and_Services table, linking the analytical data to specific customer-service interactions",VARCHAR(40),"123, 203, 677, 766, 606"
+Pattern_Recognition,Pattern_Recognition,"Describes the type of pattern recognized in the data, such as 'Normal' or 'Special'",VARCHAR(255),"Normal, Special"
+Analytical_Layer_Type_Code,Analytical_Layer_Type_Code,"Indicates the type of analytical layer, such as 'Bottom', 'Middle', or 'Top', which may represent different levels or categories of analysis",CHAR(15),"Bottom, Middle, Top"

@@ -1,0 +1,3 @@
+original_column_name,column_name,column_description,data_format,value_description
+student_course_id,student_course_id,"a foreign key that links to the `Student_Enrolment_Courses` table, identifying a specific course enrollment for a student",INTEGER,"0, 96, 76, 7, 28982908"
+transcript_id,transcript_id,"a foreign key that links to the `Transcripts` table, identifying a specific transcript document that includes the course enrollment",INTEGER,"2, 8, 9, 4, 15"

@@ -1,0 +1,6 @@
+original_column_name,column_name,column_description,data_format,value_description
+process_id,process_id,"A unique identifier for each business process, ensuring no two processes have the same ID",INTEGER,9
+next_process_id,next_process_id,"The identifier of the next process in the sequence, indicating the flow of processes",INTEGER,9
+process_name,process_name,"The name of the business process, providing a human-readable label for the process",VARCHAR(255),process
+process_description,process_description,"A detailed description of the business process, explaining its purpose or function",VARCHAR(255),normal
+other_details,other_details,"Additional information or metadata related to the business process, which may not be covered by the other columns",VARCHAR(255),None

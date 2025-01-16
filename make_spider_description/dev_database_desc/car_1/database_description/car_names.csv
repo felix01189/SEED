@@ -1,0 +1,4 @@
+original_column_name,column_name,column_description,data_format,value_description
+MakeId,MakeId,"an integer that serves as the primary key for the table, uniquely identifying each car model",INTEGER,"1, 2, 3, 4, 5"
+Model,Model,"a text field that specifies the model of the car, such as 'chevrolet' or 'ford'",TEXT,"chevrolet, buick, plymouth, amc, ford"
+Make,Make,"a text field that provides the full name or description of the car model, often including both the make and model details, such as 'chevrolet chevelle malibu' or 'ford torino'",TEXT,"chevrolet chevelle malibu, buick skylark 320, plymouth satellite, amc rebel sst, ford torino"

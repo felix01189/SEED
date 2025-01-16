@@ -1,0 +1,14 @@
+original_column_name,column_name,column_description,data_format,value_description
+customer_id,customer_id,"A unique identifier for each customer, used as the primary key",INTEGER,"1, 2, 3, 4, 5"
+gender_code,gender_code,"A single-character code representing the customer's gender (e.g., Female, Male, Unknown)",VARCHAR(1),"Female, Male, Unknown"
+customer_first_name,customer_first_name,The first name of the customer,VARCHAR(50),"Carmen, Jace, Vickie, Laurianne, Verner"
+customer_middle_initial,customer_middle_initial,"The middle initial of the customer, if available",VARCHAR(1),"K, P, B, C, V"
+customer_last_name,customer_last_name,The last name of the customer,VARCHAR(50),"Treutel, Mraz, Bergnaum, Pfeffer, Schulist"
+email_address,email_address,"The email address of the customer, used for communication",VARCHAR(255),"pgulgowski@example.com, zwisozk@example.org, herzog.imogene@example.org, columbus.hackett@example.net, juliet11@example.net"
+login_name,login_name,The username chosen by the customer for logging into the system,VARCHAR(80),"murphy07, desmond.steuber, kihn.alfonso, alena46, nanderson"
+login_password,login_password,The password chosen by the customer for account security,VARCHAR(20),"58952d0e0d28de32db3b, 7ba2e47aa0904d9fbdbf, 83a1afbe21f5ca4cd2d5, 877cbaac266ddb0a513f, c3cf21ffb950845c7d39"
+phone_number,phone_number,The contact phone number of the customer,VARCHAR(255),"(253)336-6277, 628-468-4228x5917, 633-223-0975, (874)589-9823x696, (067)124-1804"
+address_line_1,address_line_1,The primary address line of the customer's residence or business,VARCHAR(255),"646 Herzog Key Suite 702, 67899 Cassin Hollow Suite 071, 395 Christophe Trail, 14173 Alize Summit, 69426 Lewis Estates Suite 438"
+town_city,town_city,The town or city where the customer resides,VARCHAR(50),"Port Madonnahaven, Port Korychester, Lornaland, Jennyferchester, Greenfelderberg"
+county,county,The county or administrative region of the customer's address,VARCHAR(50),"Israel, Palau, Moldova, Saint Vincent and the Grenadines, South Georgia and the South Sandwich Islands"
+country,country,The country where the customer resides,VARCHAR(50),USA

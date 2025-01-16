@@ -1,0 +1,4 @@
+original_column_name,column_name,column_description,data_format,value_description
+property_id,property_id,ifies the property associated with the feature,INTEGER,"15, 12, 6, 7, 14"
+feature_id,feature_id,identifies the specific feature associated with the property,INTEGER,"3, 4, 2"
+property_feature_description,property_feature_description,provides a description or additional details about how the feature is implemented or relevant to the property,VARCHAR(80),"dolorem, earum, illo, hic, et"

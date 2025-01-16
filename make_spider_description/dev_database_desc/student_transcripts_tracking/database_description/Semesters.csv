@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+semester_id,semester_id,"A unique identifier for each semester, serving as the primary key",INTEGER,"1, 2, 3, 4, 5"
+semester_name,semester_name,"The name of the semester, usually indicating the season and year (e.g., 'spring 2010')",VARCHAR(255),"spring 2010, summer 2010, fall 2010, winter 2010, spring 2018"
+semester_description,semester_description,A brief description or additional details about the semester,VARCHAR(255),"x, g, w, c, l"
+other_details,other_details,A placeholder for any other relevant information about the semester,VARCHAR(255),None

@@ -1,0 +1,3 @@
+original_column_name,column_name,column_description,data_format,value_description
+id,id,a unique integer identifier for each language,INTEGER,"1, 2, 3, 4, 5"
+name,name,"a text field that stores the name of the language, such as 'Icelandic' or 'Swedish'",TEXT,"Icelandic, Swedish, English, Danish, Finnish"

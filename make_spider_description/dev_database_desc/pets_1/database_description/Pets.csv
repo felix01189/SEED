@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+PetID,PetID,a unique identifier for each pet,INTEGER,"2001, 2002, 2003"
+PetType,PetType,"the type of pet, such as cat or dog",VARCHAR(20),"cat, dog"
+pet_age,pet_age,the age of the pet in years,INTEGER,"3, 2, 1"
+weight,weight,"the weight of the pet, likely in kilograms or pounds",REAL,"12.0, 13.4, 9.3"

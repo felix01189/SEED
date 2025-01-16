@@ -1,0 +1,8 @@
+original_column_name,column_name,column_description,data_format,value_description
+Vehicle_ID,Vehicle_ID,A unique identifier for each vehicle in the database,INT,"1, 2, 3, 4, 5"
+Model,Model,The model name or designation of the vehicle,TEXT,"AC4000, DJ , DJ1, DJ2, Tiansuo"
+Build_Year,Build_Year,The year or range of years during which the vehicle was built,TEXT,"1996, 2000, 2000??001, 2001, 2003"
+Top_Speed,Top_Speed,"The maximum speed the vehicle can achieve, measured in units (likely km/h or mph)",INT,"120, 200"
+Power,Power,"The power output of the vehicle, measured in units (likely horsepower or kW)",INT,"4000, 4800, 6400, 9600"
+Builder,Builder,The manufacturer or company responsible for building the vehicle,TEXT,"Zhuzhou, Zhuzhou Siemens , Germany, Datong, Ziyang"
+Total_Production,Total_Production,The total number of units of this vehicle model that were produced,TEXT,"1, 2, 20, 3, 220"

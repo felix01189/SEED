@@ -1,0 +1,6 @@
+original_column_name,column_name,column_description,data_format,value_description
+ISBN,ISBN,"A unique 15-character identifier for each book, serving as the primary key",CHAR(15),"0482174555366, 0853477468299, 1235271378662, 1243415243666, 4554672899910"
+Title,Title,"The title of the book, stored as a variable-length string with a maximum of 60 characters",VARCHAR(60),"Pride and Prejudice, 1984, The Hobbit, The Little Prince, Dracula"
+Author,Author,"A 4-character code representing the author of the book, linked to the 'Author' table",CHAR(4),"2008, 2009, 2002, 2000, 2011"
+PurchasePrice,PurchasePrice,"The price at which the book was purchased, stored as a number with up to 6 digits and 2 decimal places","NUMBER(6,2)","9.45, 12.5, 19, 49, 10.45"
+SalePrice,SalePrice,"The price at which the book is sold, stored as a number with up to 6 digits and 2 decimal places","NUMBER(6,2)","13.45, 19.25, 33.15, 73.45, 15.75"

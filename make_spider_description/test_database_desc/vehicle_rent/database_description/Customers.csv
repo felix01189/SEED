@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+id,id,"A unique identifier for each customer, used as the primary key to distinguish one customer from another",INT,"1, 2, 3, 4, 5"
+name,name,"The full name of the customer, which helps in identifying and addressing them",TEXT,"Griffiths, Silluzio, Woodman, Poulter, Smith"
+age,age,"The age of the customer, which could be used for age-related restrictions or discounts",INT,"26, 34, 35, 63, 45"
+membership_credit,membership_credit,"The amount of credit available in the customer's membership account, which can be used to apply discounts or pay for rentals",INT,"100, 1200, 2000, 43500, 5399"

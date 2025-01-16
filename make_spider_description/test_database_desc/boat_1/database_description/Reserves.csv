@@ -1,0 +1,4 @@
+original_column_name,column_name,column_description,data_format,value_description
+sid,sid,"The sailor ID, referencing the 'Sailors' table, indicating which sailor made the reservation",INTEGER,"1, 2"
+bid,bid,"The boat ID, referencing the 'Boats' table, indicating which boat was reserved",INTEGER,"102, 103"
+day,day,"The date on which the reservation was made, stored as text",TEXT,"9/12, 9/13, 9/14, 9/15"

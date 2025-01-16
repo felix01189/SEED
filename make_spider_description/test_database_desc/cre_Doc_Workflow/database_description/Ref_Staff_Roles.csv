@@ -1,0 +1,3 @@
+original_column_name,column_name,column_description,data_format,value_description
+staff_role_code,staff_role_code,"a unique code representing a specific staff role, such as 'ED' for Editor or 'HR' for Human Resource",CHAR(15),"ED, HR, MG, PR, PT"
+staff_role_description,staff_role_description,"provides a descriptive name for the role, such as 'Manager' or 'Proof Reader', making it easier to understand the role's purpose",VARCHAR(255),"Manager, Editor, Photo, Proof Reader, Human Resource"

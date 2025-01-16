@@ -1,0 +1,3 @@
+original_column_name,column_name,column_description,data_format,value_description
+process_outcome_code,process_outcome_code,"a unique code representing the outcome of a process, such as 'finish', 'start', or 'working'",CHAR(15),"finish, start, working"
+process_outcome_description,process_outcome_description,"provides a textual description of the outcome, such as 'working on', 'finish', or 'starting soon'",VARCHAR(255),"working on, finish, starting soon"

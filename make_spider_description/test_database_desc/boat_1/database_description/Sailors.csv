@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+sid,sid,"A unique identifier for each sailor, serving as the primary key for the table",INTEGER,"1, 2, 3"
+name,name,"The name of the sailor, stored as text",TEXT,"Eugene, Luis, Ken"
+rating,rating,"A numerical rating assigned to the sailor, likely representing their skill level or experience",INTEGER,"7, 2, 8"
+age,age,"The age of the sailor, stored as an integer",INTEGER,"22, 39, 27"

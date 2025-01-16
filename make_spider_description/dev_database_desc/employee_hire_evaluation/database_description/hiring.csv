@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+Shop_ID,Shop_ID,"The ID of the shop where the employee was hired, referencing the 'shop' table",INT,"1, 8, 4, 5, 2"
+Employee_ID,Employee_ID,"The ID of the employee who was hired, referencing the 'employee' table",INT,"1, 2, 3, 4, 5"
+Start_from,Start_from,The year when the employee started working at the shop,TEXT,"2009, 2003, 2011, 2012, 2013"
+Is_full_time,Is_full_time,A boolean value indicating whether the employee's position is full-time (T) or part-time (F),bool,"T, F"

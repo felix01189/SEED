@@ -1,0 +1,4 @@
+original_column_name,column_name,column_description,data_format,value_description
+id,id,A unique identifier for each participant in the contest,INT,"1, 2, 3, 4, 5"
+name,name,"The name of the participant, which could be an individual or a group",TEXT,"Freeway, Biby Michael's Friend, Iskren Petsov, Sunay Chalakov, Tsetso Vlaykov"
+popularity,popularity,"A numerical score representing the participant's popularity, likely based on audience or judge ratings",REAL,"30.71, 7.47, 5.81, 53.11, 2.9"

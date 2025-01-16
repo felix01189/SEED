@@ -1,0 +1,10 @@
+original_column_name,column_name,column_description,data_format,value_description
+id,id,"A unique identifier for each TV series episode, represented as a real number",REAL,"1.0, 2.0, 3.0, 4.0, 5.0"
+Episode,Episode,The title or name of the specific episode of the TV series,TEXT,"A Love of a Lifetime, Friendly Skies, Game Three, The Year of the Rabbit, The Legend of Dylan McCleen"
+Air_Date,Air_Date,"The date on which the episode was originally aired, formatted as text",TEXT,"September 24, 2007, October 1, 2007, October 8, 2007, October 15, 2007, October 22, 2007"
+Rating,Rating,"The rating of the episode, typically a numerical value represented as text",TEXT,"5.8, 5.3, 4.4, 4.3, 3.8"
+Share,Share,"The share of the audience that watched the episode, represented as a real number",REAL,"9.0, 7.0, 6.0, 5.0"
+18_49_Rating_Share,18_49_Rating_Share,"The rating and share of the episode among viewers aged 18-49, represented as text in the format 'rating/share'",TEXT,"3.5/9, 3.2/8, 2.9/7, 2.7/7, 2.4/6"
+Viewers_m,Viewers_m,"The number of viewers in millions who watched the episode, represented as text",TEXT,"9.16, 8.23, 6.94, 6.75, 6.06"
+Weekly_Rank,Weekly_Rank,"The weekly ranking of the episode based on viewership, represented as a real number",REAL,"43.0, 50.0, 61.0, 67.0, 72.0"
+Channel,Channel,"The identifier of the TV channel on which the episode was aired, referencing the `TV_Channel` table",TEXT,"700, 701, 707, 713, 714"

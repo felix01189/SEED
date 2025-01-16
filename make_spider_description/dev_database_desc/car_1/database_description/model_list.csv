@@ -1,0 +1,4 @@
+original_column_name,column_name,column_description,data_format,value_description
+ModelId,ModelId,a unique identifier for each car model,INTEGER,"1, 2, 3, 4, 5"
+Maker,Maker,links the model to its manufacturer by referencing the `Id` in the `car_makers` table,INTEGER,"1, 2, 3, 4, 5"
+Model,Model,"contains the unique name of the car model, ensuring no duplicates exist",TEXT,"amc, audi, bmw, buick, cadillac"

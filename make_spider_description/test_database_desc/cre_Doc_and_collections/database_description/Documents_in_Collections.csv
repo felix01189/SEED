@@ -1,0 +1,3 @@
+original_column_name,column_name,column_description,data_format,value_description
+Document_Object_ID,Document_Object_ID,references the unique identifier of a document in the `Document_Objects` table,INTEGER,"5, 8, 9"
+Collection_ID,Collection_ID,references the unique identifier of a collection in the `Collections` table,INTEGER,"6, 7"

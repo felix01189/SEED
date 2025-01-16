@@ -1,0 +1,6 @@
+original_column_name,column_name,column_description,data_format,value_description
+artistID,artistID,A unique identifier for each artist,INTEGER,"111, 222, 333, 444, 555"
+lname,lname,The last name of the artist,TEXT,"Seurat, Picasso, van Gogh, Cassatt, Degas"
+fname,fname,The first name of the artist,TEXT,"Georges, Pablo, Vincent, Mary, Edgar"
+birthYear,birthYear,The year the artist was born,INTEGER,"1859, 1881, 1853, 1844, 1834"
+deathYear,deathYear,The year the artist died,INTEGER,"1891, 1973, 1890, 1926, 1917"

@@ -1,0 +1,6 @@
+original_column_name,column_name,column_description,data_format,value_description
+student_loan_id,student_loan_id,A unique identifier for each student loan,INTEGER,"165, 169, 188, 205, 267"
+student_id,student_id,"The ID of the student who took the loan, linking to the `Students` table",INTEGER,"777, 669, 435, 361, 984"
+date_of_loan,date_of_loan,The date when the loan was taken by the student,DATETIME(3),"1980-01-06 00:00:00.000, 1991-03-24 00:00:00.000, 1983-08-01 00:00:00.000, 1977-08-27 00:00:00.000, 2018-01-17 00:00:00.000"
+amount_of_loan,amount_of_loan,The monetary amount of the loan taken by the student,"DECIMAL(15,4)","2216.15, 5223.18, 3221.49, 3358.87, 5174.76"
+other_details,other_details,"Additional information or details about the loan, if any",VARCHAR(255),None

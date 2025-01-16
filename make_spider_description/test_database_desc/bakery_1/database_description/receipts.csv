@@ -1,0 +1,4 @@
+original_column_name,column_name,column_description,data_format,value_description
+ReceiptNumber,ReceiptNumber,the unique identifier for each receipt,INTEGER,"10013, 11548, 11891, 11923, 12396"
+Date,Date,stores the date the receipt was issued,TEXT,"17-Oct-2007, 21-Oct-2007, 30-Oct-2007, 9-Oct-2007, 10-Oct-2007"
+CustomerId,CustomerId,"references the 'Id' in the 'customers' table, associating the receipt with a specific customer",INTEGER,"15, 13, 7, 10, 19"

@@ -1,0 +1,4 @@
+original_column_name,column_name,column_description,data_format,value_description
+ISBN,ISBN,"The International Standard Book Number (ISBN) of the book, which uniquely identifies the book in the `Book` table",CHAR(15),"0482174555366, 1243415243666, 4554672899910, 5463467723747, 8233771378567"
+IdOrder,IdOrder,"The unique identifier of the order, which links to the `Orders` table",CHAR(10),"0000002P, 0000003P, 0000005P, 0000001P, 0000004P"
+amount,amount,"The quantity of the specific book ordered in this particular order, ensuring that the amount is greater than zero",NUMBER(3),"1, 2, 3, 5"

@@ -1,0 +1,4 @@
+original_column_name,column_name,column_description,data_format,value_description
+Course_ID,Course_ID,a unique identifier for each course,INT,"1, 2, 3, 4, 5"
+Staring_Date,Staring_Date,represents the start date of the course,TEXT,"5 May, 6 May, 7 May, 9 May, 10 May"
+Course,Course,contains the name or subject of the course,TEXT,"Language Arts, Math, Science, History, Bible"

@@ -1,0 +1,6 @@
+original_column_name,column_name,column_description,data_format,value_description
+property_id,property_id,"Foreign key referencing the `Properties` table, indicating the property to which the room belongs",INTEGER,"14, 1, 15, 4, 13"
+room_number,room_number,"Unique identifier for the room within the property, typically a number or code",VARCHAR(10),"2, 1, 7, 5, 8"
+room_type_code,room_type_code,"Foreign key referencing the `Ref_Room_Types` table, indicating the type of room (e.g., living room, kitchen, bedroom)",VARCHAR(15),"8, 2, 4, 3"
+room_size,room_size,"Size classification of the room, such as small (s), medium (m), or large (l)",VARCHAR(20),"s, l, m, let"
+other_room_details,other_room_details,"Additional descriptive information about the room, if any",VARCHAR(255),"praesentium, repudiandae, enim, nemo, adipisci"

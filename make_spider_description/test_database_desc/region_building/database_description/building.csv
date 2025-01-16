@@ -1,0 +1,7 @@
+original_column_name,column_name,column_description,data_format,value_description
+Building_ID,Building_ID,A unique identifier for each building in the database,INT,"1, 2, 3, 4, 5"
+Region_ID,Region_ID,"The identifier of the region where the building is located, referencing the 'Region_ID' in the 'region' table",INT,"1, 2, 4, 5, 6"
+Name,Name,The name of the building,TEXT,"La Renaissance Apartments, Hallmark Place, Saskatoon Square, The Terrace Apartments, Radisson Hotel"
+Address,Address,The physical address of the building,TEXT,"424 Spadina Crescent E, 311 6th Ave N, 410 22nd St E, 315 5th Ave N, 405 20th St E"
+Number_of_Stories,Number_of_Stories,The total number of stories in the building,INT,"24, 27, 17, 22, 12"
+Completed_Year,Completed_Year,The year in which the building was completed,INT,"1983, 1984, 1979, 1980, 1968"

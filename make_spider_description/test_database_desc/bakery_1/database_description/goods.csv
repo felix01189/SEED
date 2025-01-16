@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+Id,Id,"A unique identifier for each product in the bakery, represented as a text string (e.g., '20-BC-C-10')",TEXT,"20-BC-C-10, 20-BC-L-10, 20-CA-7.5, 24-8x10, 25-STR-9"
+Flavor,Flavor,"The flavor of the product, represented as a text string (e.g., 'Chocolate', 'Lemon')",TEXT,"Chocolate, Lemon, Casino, Opera, Strawberry"
+Food,Food,"The type of food item, represented as a text string (e.g., 'Cake', 'Eclair')",TEXT,"Cake, Eclair, Tart, Pie, Cookie"
+Price,Price,"The price of the product, represented as a real number (e.g., 8.95, 15.95)",REAL,"8.95, 15.95, 11.95, 3.25, 3.5"

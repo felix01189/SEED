@@ -1,0 +1,17 @@
+original_column_name,column_name,column_description,data_format,value_description
+professional_id,professional_id,A unique identifier for each professional working at the kennel,INTEGER,"1, 2, 3, 4, 5"
+role_code,role_code,"A code representing the role of the professional (e.g., Employee, Veterinarian)",VARCHAR(10),"Employee, Veterenarian"
+first_name,first_name,The first name of the professional,VARCHAR(50),"Taryn, Jayson, Olaf, Vernice, Danny"
+street,street,The street address of the professional's residence,VARCHAR(50),"6915 Oberbrunner Point Suite 491
+Gleasonville, LA , 88665 Terence Lodge Apt. 904
+Corneliusfort, NC 194, 68589 Bradly Manor
+New Audrey, IN 91497, 72532 Hane Course
+Lake Berylland, ND 95283, 188 VonRueden Tunnel Suite 630
+North Macibury, NV "
+city,city,The city where the professional resides,VARCHAR(50),"West Heidi, North Odellfurt, Jaceton, Domenickton, New Laurytown"
+state,state,The state where the professional resides,VARCHAR(20),"Indiana, Connecticut, Wisconsin, Mississippi, Hawaii"
+zip_code,zip_code,The postal code for the professional's address,VARCHAR(20),"06646, 43129, 77129, 02281, 84515"
+last_name,last_name,The last name of the professional,VARCHAR(50),"Braun, Ullrich, Watsica, Tillman, Considine"
+email_address,email_address,The email address of the professional,VARCHAR(50),"deanna.schuster@example.com, lucile.shanahan@example.org, uboehm@example.org, lourdes.lowe@example.net, mekhi.little@example.org"
+home_phone,home_phone,The home phone number of the professional,VARCHAR(20),"+71(6)2898266914, +02(1)0259033559, 325-155-0801x7005, 312.216.3352, 1-609-566-2752x25197"
+cell_number,cell_number,The cell phone number of the professional,VARCHAR(20),"(275)939-2435x80863, 889-940-2676, (369)908-7311x065, 00230569697, 011.193.9081x3186"

@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+course_id,course_id,"A unique identifier for each course, serving as the primary key",INTEGER,"1, 2, 3, 4, 5"
+course_name,course_name,"The name or code of the course, such as 'ds' for Data Science or 'math' for Mathematics",VARCHAR(255),"ds, math, os, en, fr"
+course_description,course_description,A brief description or summary of the course content or objectives,VARCHAR(255),"p, q, v, k, c"
+other_details,other_details,"Additional information or details about the course, if any",VARCHAR(255),None

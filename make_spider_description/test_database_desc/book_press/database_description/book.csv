@@ -1,0 +1,8 @@
+original_column_name,column_name,column_description,data_format,value_description
+Book_ID,Book_ID,A unique identifier for each book in the database,INT,"1, 2, 3, 4, 5"
+Title,Title,The title of the book,TEXT,"Book Revue, Baseball Bugs, Holiday for Shoestrings, Quentin Quail, Baby Bottleneck"
+Book_Series,Book_Series,"The series to which the book belongs, if applicable",TEXT,"LT, MM"
+Author_ID,Author_ID,"A foreign key referencing the 'Author_ID' in the 'author' table, indicating the author of the book",INT,"1, 2, 3, 4, 5"
+Press_ID,Press_ID,"A foreign key referencing the 'Press_ID' in the 'press' table, indicating the publisher of the book",INT,"1, 2, 3, 4, 5"
+Sale_Amount,Sale_Amount,"The sales amount of the book, represented as text",TEXT,"1234, 1214, 714, 615, 1256"
+Release_date,Release_date,"The release date of the book, represented as text in the format 'YYYY-MM-DD'",TEXT,"2016-01-05, 2016-02-02, 2016-02-23, 2016-03-02, 2016-03-16"

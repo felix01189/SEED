@@ -1,0 +1,6 @@
+original_column_name,column_name,column_description,data_format,value_description
+Singer_ID,Singer_ID,"A unique identifier for each singer, represented as an integer",INT,"1, 2, 3, 4, 5"
+Name,Name,"The full name of the singer, stored as text",TEXT,"Liliane Bettencourt, Christy Walton, Alice Walton, Iris Fontbona, Jacqueline Mars"
+Birth_Year,Birth_Year,"The year the singer was born, stored as a real number (floating-point)",REAL,"1944.0, 1948.0, 1949.0, 1942.0, 1940.0"
+Net_Worth_Millions,Net_Worth_Millions,"The singer's net worth in millions, stored as a real number (floating-point)",REAL,"30.0, 28.8, 26.3, 17.4, 17.8"
+Citizenship,Citizenship,"The country of citizenship of the singer, stored as text",TEXT,"France, United States, Chile, Australia, Germany"

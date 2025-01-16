@@ -1,0 +1,3 @@
+original_column_name,column_name,column_description,data_format,value_description
+treatment_type_code,treatment_type_code,"serves as the primary key, uniquely identifying each treatment type (e.g., EXAM, VAC, WALK)",VARCHAR(10),"EXAM, VAC, WALK"
+treatment_type_description,treatment_type_description,"describes the treatment type in more detail (e.g., Physical examination, Vaccination, Take for a Walk)",VARCHAR(80),"Physical examination, Vaccination, Take for a Walk"

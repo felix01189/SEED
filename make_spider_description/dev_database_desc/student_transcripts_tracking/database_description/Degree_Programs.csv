@@ -1,0 +1,6 @@
+original_column_name,column_name,column_description,data_format,value_description
+degree_program_id,degree_program_id,A unique identifier for each degree program,INTEGER,"1, 2, 3, 4, 5"
+department_id,department_id,"The identifier of the department offering the degree program, referencing the `Departments` table",INTEGER,"13, 2, 8, 11, 14"
+degree_summary_name,degree_summary_name,"The name or type of the degree program (e.g., Master, Bachelor, PHD)",VARCHAR(255),"Master, Bachelor, PHD"
+degree_summary_description,degree_summary_description,A brief description or summary of the degree program.,VARCHAR(255),"architecto, cumque, placeat, unde, officiis"
+other_details,other_details,"Additional details or notes about the degree program, if any",VARCHAR(255),None

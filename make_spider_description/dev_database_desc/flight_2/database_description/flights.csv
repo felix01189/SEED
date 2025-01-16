@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+Airline,Airline,"The ID of the airline operating the flight, which corresponds to the 'uid' column in the 'airlines' table",INTEGER,"1, 2, 3, 4, 5"
+FlightNo,FlightNo,The unique flight number assigned to the flight by the airline,INTEGER,"28, 29, 44, 45, 54"
+SourceAirport,SourceAirport,"The code of the airport where the flight originates, which corresponds to the 'AirportCode' column in the 'airports' table",TEXT," APG,  ASY,  CVO,  ACV,  AHD"
+DestAirport,DestAirport,"The code of the airport where the flight is destined, which corresponds to the 'AirportCode' column in the 'airports' table",TEXT," ASY,  APG,  ACV,  CVO,  AHT"

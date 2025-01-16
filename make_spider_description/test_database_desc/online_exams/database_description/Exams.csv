@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+Exam_ID,Exam_ID,a unique identifier for each exam,INTEGER,"1, 2, 3, 4, 5"
+Subject_Code,Subject_Code,the subject or course code associated with the exam,CHAR(15),"Art History, English, Database, Data Structure"
+Exam_Date,Exam_Date,the date and time of the exam,DATETIME,"2016-01-28 02:03:40, 2017-11-17 09:21:31, 2016-12-19 02:40:33, 2016-06-17 07:20:06, 2017-02-26 11:19:52"
+Exam_Name,Exam_Name,"a descriptive name for the exam, often including the year and term",VARCHAR(255),"2016 Spring AH, 2017 Fall AH, 2016 Winter ENG, 2016 Summer DB, 2017 Spring DB"

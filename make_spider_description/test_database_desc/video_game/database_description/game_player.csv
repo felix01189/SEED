@@ -1,0 +1,4 @@
+original_column_name,column_name,column_description,data_format,value_description
+Player_ID,Player_ID,"a foreign key referencing the 'Player_ID' in the 'player' table, identifying the player",INT,"1976, 1981, 1986, 1996, 1997"
+Game_ID,Game_ID,"a foreign key referencing the 'Game_ID' in the 'game' table, identifying the game",INT,"1, 2, 3, 4"
+If_active,If_active,"a boolean indicating whether the player is currently active in the game (T for true, F for false)",bool,"F, T"

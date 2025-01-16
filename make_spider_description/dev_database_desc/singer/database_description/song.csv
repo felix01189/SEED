@@ -1,0 +1,6 @@
+original_column_name,column_name,column_description,data_format,value_description
+Song_ID,Song_ID,a unique identifier for each song,INT,"1, 2, 3, 4, 5"
+Title,Title,the name of the song,TEXT,"Do They Know It's Christmas, F**k It (I Don't Want You Back), Cha Cha Slide, Call on Me, Yeah"
+Singer_ID,Singer_ID,"the ID of the singer associated with the song, linking to the 'singer' table",INT,"1, 2, 4, 6, 5"
+Sales,Sales,the number of sales for the song,REAL,"1094000.0, 552407.0, 351421.0, 335000.0, 300000.0"
+Highest_Position,Highest_Position,the highest chart position achieved by the song,REAL,"1.0, 3.0"

@@ -1,0 +1,3 @@
+original_column_name,column_name,column_description,data_format,value_description
+Template_Type_Code,Template_Type_Code,a 15-character code that uniquely identifies a template type,CHAR(15),"AD, BK, CV, PP, PPT"
+Template_Type_Description,Template_Type_Description,"provides a descriptive name or explanation of the template type, such as 'Presentation', 'CV', 'Advertisement', etc",VARCHAR(255),"Presentation, CV, Advertisement, Paper, Book"

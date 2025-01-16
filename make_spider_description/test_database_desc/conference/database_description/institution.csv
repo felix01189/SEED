@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+Institution_ID,Institution_ID,a unique identifier for each institution,INT,"1, 2, 3, 4, 5"
+Institution_Name,Institution_Name,the name of the institution,TEXT,"Illinois State University, Bradley University, Eureka College, Hedding College (defunct), Illinois College"
+Location,Location,the geographical location of the institution,TEXT,"Normal, Illinois, Peoria, Illinois, Eureka, Illinois, Abingdon, Illinois, Jacksonville, Illinois"
+Founded,Founded,the year the institution was established,INT,"1857, 1897, 1855, 1829, 1850"

@@ -1,0 +1,4 @@
+original_column_name,column_name,column_description,data_format,value_description
+Major_ID,Major_ID,a unique identifier for each major,INT,"1, 2, 3, 4, 5"
+Major_Name,Major_Name,specifies the name of the major,TEXT,"Accounting, Advertising, Healthcare Management, Journalism, Urban Education"
+Major_Code,Major_Code,a numerical code that may represent a specific classification or reference for the major,INT,"1054, 1053, 1154, 1059, 1041"

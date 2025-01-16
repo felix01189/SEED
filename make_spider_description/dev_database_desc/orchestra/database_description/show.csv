@@ -1,0 +1,6 @@
+original_column_name,column_name,column_description,data_format,value_description
+Show_ID,Show_ID,,INT,"1, 2, 3, 4, 5"
+Performance_ID,Performance_ID,,INT,"1, 2, 3, 4, 5"
+If_first_show,If_first_show,,bool,"Glebe Park, Fir Park, St. Mirren Park, Hampden Park"
+Result,Result,,TEXT,"T, F"
+Attendance,Attendance,,REAL,"1026.0, 695.0, 555.0, 1925.0, 2431.0"

@@ -1,0 +1,6 @@
+original_column_name,column_name,column_description,data_format,value_description
+Region_ID,Region_ID,"A unique identifier for each region, used as the primary key",INT,"1, 2, 3, 4, 5"
+Name,Name,"The name of the region, such as 'Abruzzo' or 'Lombardy'",TEXT,"Abruzzo, Aosta Valley, Apulia, Basilicata, Calabria"
+Capital,Capital,"The capital city of the region, such as 'L'Aquila' or 'Milan'",TEXT,"L'Aquila, Aosta, Bari, Potenza, Catanzaro"
+Area,Area,"The total area of the region in square kilometers, represented as an integer",INT,"10763, 3263, 19358, 9995, 15080"
+Population,Population,"The total population of the region, represented as an integer",INT,"1342177, 128129, 4090577, 587680, 2011537"

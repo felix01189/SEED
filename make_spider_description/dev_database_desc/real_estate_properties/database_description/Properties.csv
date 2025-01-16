@@ -1,0 +1,32 @@
+original_column_name,column_name,column_description,data_format,value_description
+property_id,property_id,A unique identifier for each property,INTEGER,"1, 2, 3, 4, 5"
+property_type_code,property_type_code,"The type of property, such as House, Apartment, or Shop, referenced from the 'Ref_Property_Types' table",VARCHAR(20),"House, Other, Field, Apartment, Shop"
+date_on_market,date_on_market,The date and time when the property was listed on the market,DATETIME,"1991-06-21 23:52:10, 1990-05-25 23:01:51, 1986-11-26 04:12:18, 2017-09-14 15:49:23, 2016-05-06 16:53:39"
+date_sold,date_sold,The date and time when the property was sold,DATETIME,"1979-05-13 16:58:06, 1990-11-14 19:16:38, 1981-06-26 21:28:28, 2003-02-27 18:17:11, 2012-08-19 07:36:57"
+property_name,property_name,"The name of the property, if available",VARCHAR(80),"park, the cole, prism, riverside, parc east"
+property_address,property_address,The full address of the property,VARCHAR(255),"4745 Emerson Stravenue Suite 829
+South Garret, IN 16772-5682, 098 Tremaine Highway Suite 569
+South Wilford, NJ 46587-3537, 062 Micaela Court Apt. 707
+Margretville, WV 51628-3617, 49578 Ayden Mountains
+New Russellhaven, UT 46626, 2765 Schulist Stream
+Lindmouth, UT 03391-3817"
+room_count,room_count,The number of rooms in the property,INTEGER,"7, 1, 8, 6, 5"
+vendor_requested_price,vendor_requested_price,The price requested by the vendor for the property,"DECIMAL(19,4)","372652.2909, 661536468.4429, 1337, 192374065.8, 983.8596"
+buyer_offered_price,buyer_offered_price,The price offered by the buyer for the property,"DECIMAL(19,4)","1.68, 8.7122, 11375259.502, 15.17, 10.1067"
+agreed_selling_price,agreed_selling_price,The final agreed selling price for the property,"DECIMAL(19,4)","4201.8, 21769471.8328, 5, 4514.807, 1.0012"
+apt_feature_1,apt_feature_1,"A feature specific to apartments, if applicable",VARCHAR(255),"aut, est, ut, nesciunt, quo"
+apt_feature_2,apt_feature_2,"A second feature specific to apartments, if applicable",VARCHAR(255),"suscipit, est, et, adipisci, sequi"
+apt_feature_3,apt_feature_3,"A third feature specific to apartments, if applicable",VARCHAR(255),None
+fld_feature_1,fld_feature_1,"A feature specific to fields, if applicable",VARCHAR(255),None
+fld_feature_2,fld_feature_2,"A second feature specific to fields, if applicable",VARCHAR(255),None
+fld_feature_3,fld_feature_3,"A third feature specific to fields, if applicable",VARCHAR(255),None
+hse_feature_1,hse_feature_1,"A feature specific to houses, if applicable",VARCHAR(255),None
+hse_feature_2,hse_feature_2,"A second feature specific to houses, if applicable",VARCHAR(255),None
+hse_feature_3,hse_feature_3,"A third feature specific to houses, if applicable",VARCHAR(255),None
+oth_feature_1,oth_feature_1,"A feature specific to other property types, if applicable",VARCHAR(255),None
+oth_feature_2,oth_feature_2,"A second feature specific to other property types, if applicable",VARCHAR(255),None
+oth_feature_3,oth_feature_3,"A third feature specific to other property types, if applicable",VARCHAR(255),None
+shp_feature_1,shp_feature_1,"A feature specific to shops, if applicable",VARCHAR(255),None
+shp_feature_2,shp_feature_2,"A second feature specific to shops, if applicable",VARCHAR(255),None
+shp_feature_3,shp_feature_3,"A third feature specific to shops, if applicable",VARCHAR(255),None
+other_property_details,other_property_details,"Additional details about the property, if available",VARCHAR(255),None

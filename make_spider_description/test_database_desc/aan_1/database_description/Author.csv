@@ -1,0 +1,4 @@
+original_column_name,column_name,column_description,data_format,value_description
+author_id,author_id,a unique identifier for each author,INTEGER,"0, 1, 2, 3, 4"
+name,name,the full name of the author,varchar(255),", &#269, &#353, &#x106, &#x107"
+email,email,the contact email address of the author,varchar(255),None

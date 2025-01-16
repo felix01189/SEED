@@ -1,0 +1,4 @@
+original_column_name,column_name,column_description,data_format,value_description
+Document_Object_ID,Document_Object_ID,The unique identifier of a document object that is part of a subset,INTEGER,"5, 8, 9"
+Related_Document_Object_ID,Related_Document_Object_ID,The unique identifier of a related document object within the same subset,INTEGER,"5, 8, 9"
+Document_Subset_ID,Document_Subset_ID,The unique identifier of the document subset to which the document objects belong,INTEGER,"547, 183, 653, 216, 171"

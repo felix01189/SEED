@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+Teacher_ID,Teacher_ID,"A unique identifier for each teacher, used as the primary key",INT,"1, 2, 3, 4, 5"
+Name,Name,The full name of the teacher,TEXT,"Joseph Huts, Gustaaf Deloor, Vicente Carretero, John Deloor, Kearsley Brown"
+Age,Age,"The age of the teacher, stored as text",TEXT,"32, 29, 26, 33, 45"
+Hometown,Hometown,"The hometown or place of origin of the teacher, stored as text",TEXT,"Blackrod Urban District, Bolton County Borough, Farnworth Municipal Borough, Horwich Urban District, Kearsley Urban District"

@@ -1,0 +1,4 @@
+original_column_name,column_name,column_description,data_format,value_description
+payment_id,payment_id,a unique identifier for each payment,INTEGER,"1, 2, 3, 4, 5"
+invoice_id,invoice_id,"the ID of the invoice associated with the payment, referencing the `Invoices` table",INTEGER,"3, 5, 8, 11, 12"
+payment_details,payment_details,details about the payment method or other relevant information,VARCHAR(255),"MasterCard, Visa, Discover Card, American Express"

@@ -1,0 +1,7 @@
+bulgarian_commander,column_name,column_description,data_format,value_description
+id,id,unique identifier for each battle,INT,"1, 2, 3, 4, 5"
+name,name,name of the battle,TEXT,"Battle of Adrianople, Battle of Serres, Battle of Rusion, Battle of Rodosto, Battle of Messinopolis"
+date,date,date the battle occurred,TEXT,"14 April 1205, June 1205, 31 January 1206, February 1206, 4 September 1207"
+bulgarian_commander,bulgarian_commander,commander of the Bulgarian forces,TEXT,"Kaloyan, Unknown, Boril, Ivan Asen II"
+latin_commander,latin_commander,commander of the Latin forces,TEXT,"Baldwin I, Unknown, Thierry de Termond, Boniface of Montferrat, Henry I"
+result,result,outcome of the battle,TEXT,"Bulgarian victory, Latin victory, Two Year Truce"

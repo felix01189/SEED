@@ -1,0 +1,4 @@
+original_column_name,column_name,column_description,data_format,value_description
+ID,ID,primary key and uniquely identifies each high school student,INT,"1025, 1101, 1247, 1304, 1316"
+name,name,contains the name of the student,TEXT,"Jordan, Gabriel, Tiffany, Cassandra, Haley"
+grade,grade,"specifies the grade level (e.g., 9, 10, 11, 12) the student is currently in",INT,"9, 10, 11, 12"

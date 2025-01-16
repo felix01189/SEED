@@ -1,0 +1,7 @@
+original_column_name,column_name,column_description,data_format,value_description
+Template_ID,Template_ID,"A unique identifier for each template, serving as the primary key",INTEGER,"0, 1, 4, 6, 7"
+Version_Number,Version_Number,"Indicates the version of the template, allowing for version control",INTEGER,"5, 9, 4, 2, 8"
+Template_Type_Code,Template_Type_Code,"A code that categorizes the template type, linked to the 'Ref_Template_Types' table",CHAR(15),"PP, BK, PPT, AD, CV"
+Date_Effective_From,Date_Effective_From,The start date and time when the template becomes effective,DATETIME,"2005-11-12 07:09:48, 2010-09-24 01:15:11, 2002-03-02 14:39:49, 1975-05-20 22:51:19, 1993-10-07 02:33:04"
+Date_Effective_To,Date_Effective_To,The end date and time when the template is no longer effective,DATETIME,"2008-01-05 14:19:28, 1999-07-08 03:31:04, 2001-04-18 09:29:52, 1992-05-02 20:06:11, 1975-07-16 04:52:10"
+Template_Details,Template_Details,"Additional details or metadata about the template, stored as a string",VARCHAR(255),

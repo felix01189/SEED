@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+City_channel_ID,City_channel_ID,"Foreign key referencing the 'ID' column in the 'city_channel' table, indicating which city channel is associated with a TV show",INT,"1, 2, 5, 7, 11"
+tv_show_ID,tv_show_ID,"Foreign key referencing the 'tv_show_ID' column in the 'tv_show' table, indicating which TV show is associated with a city channel",INT,"2, 3, 1, 4"
+Is_online,Is_online,"Boolean column indicating whether the TV show is available online for the associated city channel (T for True, F for False)",bool,"T, F"
+Is_free,Is_free,"Boolean column indicating whether the TV show is free to watch for the associated city channel (T for True, F for False)",bool,"F, T"

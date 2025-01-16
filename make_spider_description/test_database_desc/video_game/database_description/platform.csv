@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+Platform_ID,Platform_ID,"A unique identifier for each gaming platform, used as a primary key to reference platforms in other tables",INT,"1, 2, 3, 4"
+Platform_name,Platform_name,"The name of the gaming platform, such as 'Game Boy' or 'PlayStation'",TEXT,"Game Boy, SNES, PlayStation, Nintendo 64"
+Market_district,Market_district,"The region or market where the platform is primarily distributed, such as 'Asia' or 'USA'",TEXT,"Asia, USA, Europe, Brazil"
+Download_rank,Download_rank,"A ranking indicating the popularity or download performance of the platform, with lower numbers indicating higher popularity",INT,"2, 3, 1, 4"

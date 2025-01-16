@@ -1,0 +1,4 @@
+original_column_name,column_name,column_description,data_format,value_description
+PlanetID,PlanetID,the primary key and uniquely identifies each planet,INTEGER,"1, 2, 3, 4, 5"
+Name,Name,stores the name of the planet,VARCHAR(255),"Omicron Persei 8, Decapod X, Mars, Omega III, Tarantulon VI"
+Coordinates,Coordinates,"stores the spatial coordinates of the planet, which are represented as real numbers",REAL,"89475345.3545, 65498463216.3466, 32435021.65468, 98432121.5464, 849842198.354654"

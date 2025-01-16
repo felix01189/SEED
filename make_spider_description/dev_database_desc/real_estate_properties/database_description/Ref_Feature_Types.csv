@@ -1,0 +1,3 @@
+original_column_name,column_name,column_description,data_format,value_description
+feature_type_code,feature_type_code,"a unique identifier for each feature type, such as 'Amenity' or 'Security'",VARCHAR(20),"Amenity, Security"
+feature_type_name,feature_type_name,"a descriptive name for the feature type, such as 'Amenity, eg Pool.' or 'Security, eg Burglar Alarm.'",VARCHAR(80),"Amenity, eg Pool., Securiyt, eg Burglar Alarm."

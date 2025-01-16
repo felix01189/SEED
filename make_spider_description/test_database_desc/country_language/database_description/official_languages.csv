@@ -1,0 +1,3 @@
+original_column_name,column_name,column_description,data_format,value_description
+language_id,language_id,the unique identifier of a language from the `languages` table,INTEGER,"1, 2, 3, 4, 5"
+country_id,country_id,represents the unique identifier of a country from the `countries` table,INTEGER,"1, 2, 3, 4, 5"

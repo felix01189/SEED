@@ -1,0 +1,7 @@
+original_column_name,column_name,column_description,data_format,value_description
+Rank,Rank,"The overall rank of the university, where lower numbers indicate a higher rank",INT,"1, 3, 4, 5, 6"
+University_ID,University_ID,"A unique identifier for the university, linking to the `university` table",INT,"1, 2, 3, 4, 5"
+Reputation_point,Reputation_point,"A score representing the university's reputation, contributing to the overall ranking",INT,"5, 4, 1, 0"
+Research_point,Research_point,"A score representing the university's research output, contributing to the overall ranking",INT,"2, 1, 0, 3"
+Citation_point,Citation_point,"A score representing the university's citation impact, contributing to the overall ranking",INT,"0, 1, 2"
+Total,Total,"The total score calculated from the sum of `Reputation_point`, `Research_point`, and `Citation_point`, used to determine the overall rank",INT,"7, 4, 6, 3, 2"

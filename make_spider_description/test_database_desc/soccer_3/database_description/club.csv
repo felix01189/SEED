@@ -1,0 +1,7 @@
+original_column_name,column_name,column_description,data_format,value_description
+Club_ID,Club_ID,"A unique identifier for each soccer club, used as the primary key to distinguish clubs",INT,"1, 2, 3, 4, 5"
+Name,Name,"The name of the soccer club, representing the team's official title",TEXT,"Arsenal, Aston Villa, Blackburn Rovers, Bolton Wanderers, Chelsea"
+Manager,Manager,The name of the current manager or head coach of the soccer club,TEXT,"Arsène Wenger, Martin O'Neill, Sam Allardyce, Gary Megson, Guus Hiddink"
+Captain,Captain,"The name of the current team captain, who is typically a player with leadership responsibilities",TEXT,"Cesc Fàbregas, Martin Laursen, Ryan Nelsen, Kevin Davies, John Terry"
+Manufacturer,Manufacturer,The brand or company that manufactures the club's official kit or uniforms,TEXT,"Nike, Umbro, Reebok, adidas"
+Sponsor,Sponsor,"The primary sponsor of the club, often a company or organization that provides financial support in exchange for branding on the club's kit or other assets",TEXT,"Fly Emirates, Acorns, Crown Paints, Reebok, Samsung"

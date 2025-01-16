@@ -1,0 +1,3 @@
+original_column_name,column_name,column_description,data_format,value_description
+breed_code,breed_code,"a unique identifier for each dog breed, represented as a 10-character string",VARCHAR(10),"BUL, ESK, HUS"
+breed_name,breed_name,"contains the full name of the breed, represented as an 80-character string",VARCHAR(80),"Eskimo, Husky, Bulldog"

@@ -1,0 +1,6 @@
+original_column_name,column_name,column_description,data_format,value_description
+id,id,A unique identifier for each rental transaction,INT,"1, 2, 3, 4, 5"
+customer_id,customer_id,"The ID of the customer who made the rental, referencing the 'Customers' table",INT,"1, 2, 3, 4, 5"
+discount_id,discount_id,"The ID of the discount applied to the rental, referencing the 'Discount' table",INT,"1, 2, 3, 4"
+vehicles_id,vehicles_id,"The ID of the vehicle rented, referencing the 'Vehicles' table",INT,"2, 5, 7, 3, 1"
+total_hours,total_hours,The total number of hours the vehicle was rented for,INT,"1, 10, 24, 36, 72"

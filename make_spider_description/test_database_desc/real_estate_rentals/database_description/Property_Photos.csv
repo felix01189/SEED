@@ -1,0 +1,6 @@
+original_column_name,column_name,column_description,data_format,value_description
+property_id,property_id,"The ID of the property to which the photo belongs, linking to the `Properties` table",INTEGER,"5, 15, 8, 14, 9"
+photo_seq,photo_seq,A sequence number indicating the order of the photo among all photos of the property,INTEGER,"0, 61822, 3961, 2, 1591"
+photo_title,photo_title,"A short title or label for the photo, such as 'front', 'back', 'kitchen', etc",VARCHAR(30),"front, back, kitchen, bathroom, bedroom"
+photo_description,photo_description,"A detailed description of the photo, providing additional context or information",VARCHAR(255),"reiciendis, aut, officiis, in, eum"
+photo_filename,photo_filename,"The filename or path where the photo is stored, used to retrieve the image",VARCHAR(255),"repellat, iste, id, error, sed"

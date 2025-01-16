@@ -1,0 +1,6 @@
+original_column_name,column_name,column_description,data_format,value_description
+id,id,"A unique identifier for each bike, represented as an integer",INT,"1, 2, 3, 4, 5"
+product_name,product_name,"The name or model of the bike, represented as text",TEXT,"BIANCHI SPECIALISSIMA, CANNONDALE SUPERSIX EVO HI-MOD DURA ACE, CANYON AEROAD CF SLX 8.0 DI2, GIANT TCR ADVANCED SL 0, Ibis"
+weight,weight,"The weight of the bike in grams, represented as an integer",INT,"780, 850, 880, 750, 800"
+price,price,"The price of the bike in a specific currency, represented as a real number",REAL,"9999.0, 5330.0, 3050.0, 9000.0, 3599.0"
+material,material,"The material used to construct the bike, represented as text",TEXT,"Carbon CC, carbon fiber, Toray T700 and T800 carbon fiber"

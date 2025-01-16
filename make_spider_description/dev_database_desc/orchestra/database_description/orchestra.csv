@@ -1,0 +1,7 @@
+original_column_name,column_name,column_description,data_format,value_description
+Orchestra_ID,Orchestra_ID,a unique identifier for each orchestra,INT,"1, 2, 3, 4, 5"
+Orchestra,Orchestra,the name of the orchestra,TEXT,"London Symphony Orchestra, Columbia Symphony Orchestra, Royal Concertgebouw Orchestra, Royal Danish Orchestra, Detroit Symphony Orchestra"
+Conductor_ID,Conductor_ID,a foreign key referencing the conductor leading the orchestra,INT,"1, 2, 3, 4, 5"
+Record_Company,Record_Company,the company that records the orchestra's performances,TEXT,"Mercury Records, Columbia Masterworks, Philips, Kultur, Decca Records"
+Year_of_Founded,Year_of_Founded,the year the orchestra was founded,REAL,"2003.0, 2009.0, 2008.0, 2002.0, 2004.0"
+Major_Record_Format,Major_Record_Format,the primary format used for recording the orchestra's performances,TEXT,"CD, CD / LP, DVD"

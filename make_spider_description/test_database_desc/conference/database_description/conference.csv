@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+Conference_ID,Conference_ID,"A unique identifier for each conference, represented as an integer",INT,"1, 2, 3, 4, 5"
+Conference_Name,Conference_Name,"The name of the conference, represented as text",TEXT,"ACL, Naccl, AICS"
+Year,Year,"The year in which the conference took place, represented as an integer",INT,"2003, 2004"
+Location,Location,"The geographical location where the conference was held, represented as text",TEXT,"Philippines, Japan, China, England, USA"

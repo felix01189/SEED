@@ -1,0 +1,10 @@
+original_column_name,column_name,column_description,data_format,value_description
+Driver_ID,Driver_ID,"A unique identifier for each driver, represented as an integer",INT,"1, 2, 3, 4, 5"
+Driver,Driver,"The name of the driver, represented as text",TEXT,"Kasey Kahne, Matt Kenseth, Tony Stewart, Denny Hamlin *, Kevin Li"
+Country,Country,"A foreign key linking to the 'country' table, representing the driver's country of origin, stored as an integer",INT,"2, 3, 1, 5, 4"
+Age,Age,"The age of the driver, represented as an integer",INT,"23, 21, 19, 25, 22"
+Car_#,Car_#,"The car number associated with the driver, represented as a real number",REAL,"9.0, 17.0, 20.0, 11.0, 29.0"
+Make,Make,"The make of the car driven by the driver, represented as text",TEXT,"Dodge, Ford, Chevrolet"
+Points,Points,"The total points earned by the driver, represented as text",TEXT,"185, 175, 165, 160, 150"
+Laps,Laps,"The total number of laps completed by the driver, represented as a real number",REAL,334
+Winnings,Winnings,"The total winnings earned by the driver, represented as text",TEXT,"$530,164, $362,491, $286,386, $208,500, $204,511"

@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+Member_ID,Member_ID,a unique identifier for each member,INT,"1984, 1985, 1986, 1987, 1988"
+Name,Name,the full name of the member,TEXT,"Wally Lewis, Brett Kenny, Garry Jack, Hugh McGahan Peter Sterling, Ellery Hanley"
+Nationality,Nationality,the nationality of the member,TEXT,"Australia, New Zealand Australia, England, No award given"
+Age,Age,the age of the member,INT,"23, 19, 18, 24, 22"

@@ -1,0 +1,6 @@
+original_column_name,column_name,column_description,data_format,value_description
+Student_Answer_ID,Student_Answer_ID,"A unique identifier for the student's answer being assessed, which links to the `Student_Answers` table",VARCHAR(100),"162, 172, 2, 307, 340"
+Valid_Answer_ID,Valid_Answer_ID,"A unique identifier for the correct or valid answer to the question, which links to the `Valid_Answers` table",INTEGER,"3, 4, 2, 1, 5"
+Student_Answer_Text,Student_Answer_Text,The text of the student's answer that is being assessed,VARCHAR(255),"B, A, True, False"
+Satisfactory_YN,Satisfactory_YN,A flag indicating whether the student's answer is satisfactory (1) or not (0),CHAR(1),"0, 1"
+Assessment,Assessment,"A qualitative assessment of the student's answer, such as 'Very Good', 'Excellent', or 'OK'",VARCHAR(40),"Very Good, Excellent, OK"

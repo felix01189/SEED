@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+uid,uid,"A unique identifier for each airline, represented as an integer",INTEGER,"1, 2, 3, 4, 5"
+Airline,Airline,"The full name of the airline, represented as text",TEXT,"United Airlines, US Airways, Delta Airlines, Southwest Airlines, American Airlines"
+Abbreviation,Abbreviation,"The abbreviated form of the airline's name, represented as text",TEXT,"UAL, USAir, Delta, Southwest, American"
+Country,Country,"The country where the airline is based, represented as text",TEXT,USA

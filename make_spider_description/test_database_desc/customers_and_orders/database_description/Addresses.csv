@@ -1,0 +1,8 @@
+original_column_name,column_name,column_description,data_format,value_description
+address_id,address_id,"the primary key, uniquely identifying each address",INTEGER,"1, 2, 3, 4, 5"
+address_details,address_details,"contains the full address details, such as street, city, state, and ZIP code, in a single string",VARCHAR(255),"2632 Ofelia Stream Apt. 537
+Rueckerborough, NV 78430-4096, 481 Tyrique Junction
+West Kali, UT 16070-1379, 4363 Otilia Hill
+Landenshire, ND 45637, 1734 Klocko Views Suite 840
+Schusterfort, WY 34067-3366, 001 Eliza Ferry Suite 929
+Schillerfurt, WI 60335-2125"

@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+Customer_ID,Customer_ID,"The unique identifier for the customer who placed the order, referencing the 'Customer_ID' in the 'customer' table",INT,"1, 2, 3, 4, 5"
+Branch_ID,Branch_ID,"The unique identifier for the branch where the order was placed, referencing the 'Branch_ID' in the 'branch' table",INT,"10, 9, 6"
+Dish_Name,Dish_Name,The name of the dish ordered by the customer,TEXT,"Spring Rolls, Kung Pao Chicken, Ma Po Tofu, Peking Roasted Duck, Chow Mein"
+Quantity,Quantity,The number of units of the dish ordered by the customer,INT,"1, 2, 4"

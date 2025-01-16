@@ -1,0 +1,6 @@
+original_column_name,column_name,column_description,data_format,value_description
+id,id,Unique identifier for each cyclist,INT,"1, 2, 3, 4, 5"
+heat,heat,The heat number in which the cyclist participated,INT,"4, 3, 1, 2"
+name,name,The full name of the cyclist,TEXT,"Bradley Wiggins, Hayden Roulston, Steven Burke, Alexei Markov, Volodymyr Dyudya"
+nation,nation,The nationality of the cyclist,TEXT,"Great Britain, New Zealand, Russia, Ukraine, Spain"
+result,result,"The race result of the cyclist, typically in a time format (e.g., 4:16.571)",REAL,"4:16.571, 4:19.232, 4:21.558, 4:22.308, 4:22.471"

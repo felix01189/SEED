@@ -1,0 +1,3 @@
+original_column_name,column_name,column_description,data_format,value_description
+size_code,size_code,"a primary key that uniquely identifies each size category (e.g., 'LGE', 'MED', 'SML')",VARCHAR(10),"LGE, MED, SML"
+size_description,size_description,"provides a descriptive name for each size category (e.g., 'Large', 'Medium', 'Small')",VARCHAR(80),"Small, Medium, Large"

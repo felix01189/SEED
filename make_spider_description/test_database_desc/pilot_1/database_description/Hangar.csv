@@ -1,0 +1,3 @@
+original_column_name,column_name,column_description,data_format,value_description
+plane_name,plane_name,a unique identifier for each plane,CHAR(15),"B-1 Bomber, B-52 Bomber, F-14 Fighter, Piper Cub"
+location,location,the storage location of the plane,CHAR(15),"Chicago, Austin, Boston, Seattle"

@@ -1,0 +1,4 @@
+original_column_name,column_name,column_description,data_format,value_description
+id,id,Unique identifier for each discount,INT,"1, 2, 3, 4, 5"
+name,name,"Description of the discount offer, such as '20% off' or '50% off'",TEXT,"no discount, 20% off, 40% off for over $6000, 50% off, 70% off"
+membership_credit,membership_credit,Minimum membership credit required to be eligible for the discount,INT,"0, 1000, 2000, 4000, 400000"

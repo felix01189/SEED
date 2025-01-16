@@ -1,0 +1,6 @@
+original_column_name,column_name,column_description,data_format,value_description
+Document_Object_ID,Document_Object_ID,A unique identifier for each document object in the table,INTEGER,"5, 8, 9"
+Parent_Document_Object_ID,Parent_Document_Object_ID,"The identifier of the parent document object, if this document is a child of another document object",INTEGER,"5, 9"
+Owner,Owner,The name of the person or entity that owns the document object,VARCHAR(255),"Ransom, Marlin, Braeden"
+Description,Description,"A brief description or name of the document object, often indicating its purpose or content",VARCHAR(255),"Ransom Collection, Marlin Collection, Braeden Collection"
+Other_Details,Other_Details,"Additional information or metadata about the document object, which may be null if no extra details are provided",VARCHAR(255),None

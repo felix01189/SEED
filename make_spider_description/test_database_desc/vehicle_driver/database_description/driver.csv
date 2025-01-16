@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+Driver_ID,Driver_ID,unique identifier for each driver,INT,"1, 2, 3, 4"
+Name,Name,full name of the driver,TEXT,"Jeff Gordon, Jimmie Johnson, Tony Stewart, Ryan Hunter-Reay"
+Citizenship,Citizenship,country of citizenship,TEXT,United States
+Racing_Series,Racing_Series,the racing series the driver is associated with,TEXT,"NASCAR, IndyCar Series"

@@ -1,0 +1,4 @@
+original_column_name,column_name,column_description,data_format,value_description
+student_id,student_id,a unique identifier for each student,INTEGER,"276, 287, 325, 361, 415"
+bio_data,bio_data,the name or personal details of the student,VARCHAR(255),"Camila, Dino, Pansy, Louvenia, Leora"
+student_details,student_details,"additional information about the student, such as their address or contact details",VARCHAR(255),"Suite 076, Suite 970, Apt. 149, Suite 218, Apt. 748"

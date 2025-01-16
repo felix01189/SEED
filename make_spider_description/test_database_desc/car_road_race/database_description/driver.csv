@@ -1,0 +1,8 @@
+original_column_name,column_name,column_description,data_format,value_description
+Driver_ID,Driver_ID,"A unique identifier for each driver, used to distinguish one driver from another",INT,"1, 2, 3, 4, 5"
+Driver_Name,Driver_Name,"The full name of the driver, representing the individual participating in the race",TEXT,"Ernst-Günther Burggaller, Hermann zu Leiningen, Heinrich-Joachim von Morgen, Rudolf Caracciola, Earl Howe"
+Entrant,Entrant,The team or organization that the driver is representing in the race,TEXT,"German Bugatti Team, Private entry, Automobiles Ettore Bugatti"
+Constructor,Constructor,The manufacturer or builder of the car that the driver is using in the race,TEXT,"Bugatti, Mercedes-Benz, Maserati"
+Chassis,Chassis,The specific model or type of chassis used by the driver's car,TEXT,"Bugatti T35B, Bugatti T35C, Mercedes-Benz SSK L, Bugatti T51, Bugatti T35"
+Engine,Engine,The type and specifications of the engine used in the driver's car,TEXT,"2.3 L8, 2.0 L8, 7.1 L6, 2.5 L8, 1.5 L4"
+Age,Age,"The age of the driver at the time of the race, indicating their experience level",INT,"18, 20, 23, 24, 26"

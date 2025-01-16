@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+CountryCode,CountryCode,"A 3-character code representing the country, referencing the `Code` column in the `country` table",char(3),"ABW, AFG, AGO, AIA, ALB"
+Language,Language,The name of the language spoken in the country,char(30),"Dutch, English, Papiamento, Spanish, Balochi"
+IsOfficial,IsOfficial,"Indicates whether the language is officially recognized in the country, with 'T' for true and 'F' for false",TEXT,"T, F"
+Percentage,Percentage,The percentage of the country's population that speaks the language,"float(4,1)","5.3, 9.5, 76.7, 7.4, 0.9"

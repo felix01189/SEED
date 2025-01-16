@@ -1,0 +1,6 @@
+original_column_name,column_name,column_description,data_format,value_description
+Program_ID,Program_ID,A unique identifier for each program,INT,"1, 2, 3, 4, 5"
+Start_Year,Start_Year,The year in which the program started airing,REAL,"2002.0, 2006.0, 2007.0, 2008.0, 2009.0"
+Title,Title,The title or name of the program,TEXT,"The Angry Brigade, Dracula, Another Country, Caesar III: An Empire Without End, Othello"
+Director_ID,Director_ID,"The unique identifier of the director associated with the program, referencing the 'director' table",INT,"1, 2, 3, 5, 6"
+Channel_ID,Channel_ID,"The unique identifier of the channel on which the program is aired, referencing the 'channel' table",INT,"14, 10, 3, 7"

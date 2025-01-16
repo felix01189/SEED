@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+Museum_ID,Museum_ID,"A unique identifier for each museum, represented as an integer",INT,"1, 2, 3, 4, 5"
+Name,Name,"The name of the museum, stored as text",TEXT,"Plaza Museum, Capital Plaza Museum, Jefferson Development Museum, Willow Grande Museum, RiverPark Museum"
+Num_of_Staff,Num_of_Staff,"The number of staff members working at the museum, represented as an integer",INT,"62, 25, 18, 17, 16"
+Open_Year,Open_Year,"The year the museum was opened, stored as text",TEXT,"2000, 2012, 2010, 2011, 2008"

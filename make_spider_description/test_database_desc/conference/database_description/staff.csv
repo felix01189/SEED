@@ -1,0 +1,6 @@
+original_column_name,column_name,column_description,data_format,value_description
+staff_ID,staff_ID,"A unique identifier for each staff member, serving as the primary key for the table",INT,"1, 2, 3, 4, 5"
+name,name,The full name of the staff member,TEXT,"Bobby Jackson, Casey Jacobsen, Alexander Johnson, Chris Johnson, Bobby Jones"
+Age,Age,"The age of the staff member, represented as an integer",INT,"24, 23, 42, 34, 28"
+Nationality,Nationality,"The nationality of the staff member, represented as text",TEXT,"United States, United Kindom, Canada"
+Institution_ID,Institution_ID,"A foreign key referencing the 'Institution_ID' in the 'institution' table, indicating the institution with which the staff member is associated",INT,"1, 2, 3, 4, 5"

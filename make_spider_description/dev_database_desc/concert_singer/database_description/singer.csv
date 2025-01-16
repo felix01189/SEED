@@ -1,0 +1,8 @@
+original_column_name,column_name,column_description,data_format,value_description
+Singer_ID,Singer_ID,"A unique identifier for each singer, used as the primary key for the table",INT,"1, 2, 3, 4, 5"
+Name,Name,The full name of the singer,TEXT,"Joe Sharp, Timbaland, Justin Brown, Rose White, John Nizinik"
+Country,Country,The country where the singer is from,TEXT,"Netherlands, United States, France"
+Song_Name,Song_Name,The name of the song associated with the singer,TEXT,"You, Dangerous, Hey Oh, Sun, Gentleman"
+Song_release_year,Song_release_year,The year the song was released,TEXT,"1992, 2008, 2013, 2003, 2014"
+Age,Age,The age of the singer,INT,"52, 32, 29, 41, 43"
+Is_male,Is_male,A boolean value indicating whether the singer is male (T) or not (F),bool,"F, T"

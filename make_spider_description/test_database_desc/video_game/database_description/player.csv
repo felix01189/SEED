@@ -1,0 +1,6 @@
+original_column_name,column_name,column_description,data_format,value_description
+Player_ID,Player_ID,"A unique identifier for each player, used as the primary key for the table",INT,"1976, 1977, 1978, 1980, 1981"
+Rank_of_the_year,Rank_of_the_year,"The rank of the player for the year, indicating their performance or standing relative to other players",INT,"1, 17, 22, 7, 18"
+Player_name,Player_name,The full name of the player,TEXT,"Lee Roy Selmon, Ricky Bell *, Doug Williams, Ray Snell, Hugh Green"
+Position,Position,"The position the player plays in the game, such as Defensive end, Running back, or Quarterback",TEXT,"Defensive end, Running back, Quarterback, Guard, Linebacker"
+College,College,The college or university the player attended,TEXT,"Oklahoma, USC, Grambling, Wisconsin, Pittsburgh"

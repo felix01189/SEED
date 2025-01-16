@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+Press_ID,Press_ID,the primary key and uniquely identifies each publishing company,INT,"1, 2, 3, 4, 5"
+Name,Name,stores the name of the publishing company,TEXT,"Accor, Air Liquide, Alstom, ArcelorMittal, STMicroelectronics"
+Month_Profits_billion,Month_Profits_billion,records the company's monthly profits in billions,REAL,"0.65, 4.08, 0.96, 1.69, 0.54"
+Year_Profits_billion,Year_Profits_billion,records the company's annual profits in billions,REAL,"6.02, 29.49, 9.4, 15.4, 5.25"

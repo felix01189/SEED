@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+ShipmentID,ShipmentID,"A unique identifier for each shipment, serving as the primary key",INTEGER,"1, 2, 3, 4, 5"
+Date,Date,"The date when the shipment was made, which can be null if the date is unknown",DATE,"3004/05/11, None"
+Manager,Manager,"The ID of the employee responsible for managing the shipment, linked to the `Employee` table",INTEGER,"1, 2, 7"
+Planet,Planet,"The ID of the destination planet for the shipment, linked to the `Planet` table",INTEGER,"1, 2, 3, 4, 5"

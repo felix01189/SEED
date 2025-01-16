@@ -1,0 +1,4 @@
+original_column_name,column_name,column_description,data_format,value_description
+Document_Subset_ID,Document_Subset_ID,A unique identifier for each document subset,INTEGER,"171, 183, 216, 488, 535"
+Document_Subset_Name,Document_Subset_Name,"The name of the document subset, providing a descriptive label",VARCHAR(255),"Best for 2000, Best for 2001, Best for 2002, Best for 2003, Best for 2004"
+Document_Subset_Details,Document_Subset_Details,Additional details or metadata about the document subset,VARCHAR(255),

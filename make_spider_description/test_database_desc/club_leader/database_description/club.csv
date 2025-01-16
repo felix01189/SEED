@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+Club_ID,Club_ID,unique identifier for each club,INT,"1, 2, 3, 4, 5"
+Overall_Ranking,Overall_Ranking,the club's ranking in a competition,INT,"5, 57, 82, 109, 119"
+Team_Leader,Team_Leader,the name of the club's leader,TEXT,"Mack Mitchell, Oscar Roan, Tony Peters, John Zimba, Jim Cope"
+Club_Name,Club_Name,the name of the club,TEXT,"Houston, SMU, Oklahoma, Villanova, Ohio State"

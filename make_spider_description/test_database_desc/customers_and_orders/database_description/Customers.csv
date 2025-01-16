@@ -1,0 +1,9 @@
+original_column_name,column_name,column_description,data_format,value_description
+customer_id,customer_id,"A unique identifier for each customer, used as the primary key.",INTEGER,"1, 2, 3, 4, 5"
+address_id,address_id,"A foreign key referencing the 'Addresses' table, linking each customer to their specific address",INTEGER,"9, 8, 3, 11, 7"
+payment_method_code,payment_method_code,"The code representing the payment method preferred by the customer (e.g., Credit Card, Direct Debit)",VARCHAR(15),"Credit Card, Direct Debit"
+customer_number,customer_number,A unique identifier or reference number assigned to the customer,VARCHAR(20),"601, 920, 990, 037, 949"
+customer_name,customer_name,The full name of the customer,VARCHAR(80),"Jeromy, Edmond, Twila, Madelynn, Nya"
+customer_address,customer_address,"The physical address of the customer, which may include street, city, and postal details",VARCHAR(255),"422 Bode Mount Apt. 688, 0965 Dickens Springs, 878 Joy Fields Apt. 366, 9128 Berry Mountains Suite 608, 689 Wilkinson Coves Apt. 107"
+customer_phone,customer_phone,"The contact phone number of the customer, which may include country codes and extensions",VARCHAR(80),"1-968-453-3485, +92(8)6677749570, (291)441-3432, 1-909-419-5704x7658, 739-333-7916"
+customer_email,customer_email,"The email address of the customer, used for communication",VARCHAR(80),"everett.kautzer@example.com, maegan54@example.net, dedric.bailey@example.org, white.barney@example.net, eldred44@example.net"

@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+IdClient,IdClient,unique identifier for each client,CHAR(10),"0000001, 0000002, 0000003, 0000004, 0000005"
+Name,Name,client's full name,VARCHAR(25),"James Smith, Laura Jones, Peter Doe, Rose Johnson, Joseph Clinton"
+Address,Address,client's physical address,VARCHAR(60),"Picadilly 2, Holland Park 13, High Street 42, Notting Hill 46, Leicester Square 1"
+NumCC,NumCC,client's credit card number,CHAR(16),"1234567890123456, 1234567756953456, 1237596390123456, 4896357890123456, 1224569890123456"

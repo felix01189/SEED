@@ -1,0 +1,3 @@
+original_column_name,column_name,column_description,data_format,value_description
+event_type_code,event_type_code,"a unique code (CHAR(10)) that identifies the type of event, such as 'Exam' or 'Registration'",CHAR(10),"Exam, Registration"
+event_type_description,event_type_description,"provides a descriptive name for the event type, such as 'Exam' or 'Registration'",VARCHAR(255),"Exam, Registration"

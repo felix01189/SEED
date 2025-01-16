@@ -1,0 +1,9 @@
+original_column_name,column_name,column_description,data_format,value_description
+University_ID,University_ID,unique identifier for each university,INT,"1, 2, 3, 4, 5"
+University_Name,University_Name,name of the university,TEXT,"Augustana College, Aurora University, Beloit College, Benedictine University, Carroll University "
+City,City,city where the university is located,TEXT,"Rock Island, Aurora, Beloit, Lisle, Waukesha"
+State,State,state where the university is located,TEXT,"Illinois, Wisconsin, Iowa, Ohio, Missouri"
+Team_Name,Team_Name,name of the university's sports team,TEXT,"Vikings, Spartans, Buccaneers, Eagles, Pioneers"
+Affiliation,Affiliation,religious or non-sectarian affiliation of the university,TEXT,"Private_Lutheran, Private_Non-sectarian, Private_United Church of Christ, Private_Catholic, Private_Presbyterian"
+Enrollment,Enrollment,number of students enrolled in the university,INT,"2500, 4400, 1000, 1300, 2789"
+Home_Conference,Home_Conference,athletic conference the university belongs to,TEXT,"CCIW, Northern, Midwest, HCAC, SLIAC"

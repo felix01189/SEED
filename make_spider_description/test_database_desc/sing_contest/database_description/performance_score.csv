@@ -1,0 +1,6 @@
+original_column_name,column_name,column_description,data_format,value_description
+participant_id,participant_id,"The ID of the participant who performed the song, referencing the 'id' column in the 'participants' table",INT,"1, 2, 3, 4, 5"
+songs_id,songs_id,"The ID of the song performed by the participant, referencing the 'id' column in the 'songs' table",INT,"12, 13, 22, 23, 5"
+voice_sound_quality,voice_sound_quality,"A score representing the quality of the participant's voice during the performance, measured on a scale (e.g., 0 to 10)",REAL,"10.0, 8.0, 7.0, 2.0, 9.0"
+rhythm_tempo,rhythm_tempo,"A score representing the participant's ability to maintain rhythm and tempo during the performance, measured on a scale (e.g., 0 to 10)",REAL,"9.0, 8.0, 4.0, 5.0, 7.0"
+stage_presence,stage_presence,"A score representing the participant's stage presence and overall performance charisma, measured on a scale (e.g., 0 to 10)",REAL,"8.0, 5.0, 10.0, 7.0, 9.0"

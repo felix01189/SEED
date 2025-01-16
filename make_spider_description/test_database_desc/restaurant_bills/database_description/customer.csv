@@ -1,0 +1,6 @@
+original_column_name,column_name,column_description,data_format,value_description
+Customer_ID,Customer_ID,"A unique identifier for each customer, used to distinguish one customer from another",INT,"1, 2, 3, 4, 5"
+Name,Name,"The full name of the customer, representing their identity",TEXT,"Arthur Morris, Denis Compton, Donald Bradman, Cyril Washbrook, Len Hutton"
+Nationality,Nationality,"The country of origin or citizenship of the customer, indicating their background",TEXT,"Australia, England"
+Card_Credit,Card_Credit,"The available credit balance on the customer's credit card, representing their spending limit",REAL,"87.0, 62.44, 72.57, 50.85, 42.75"
+Level_of_Membership,Level_of_Membership,"An integer representing the customer's membership level, which could indicate their loyalty or benefits tier within the restaurant's membership program",INT,"3, 2, 1, 0"

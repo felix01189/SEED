@@ -1,0 +1,7 @@
+original_column_name,column_name,column_description,data_format,value_description
+vote_id,vote_id,unique identifier for each vote,INTEGER,"5, 3, 2, 1"
+phone_number,phone_number,voter's phone number,INTEGER,"5112677315, 6209222712, 7148407040, 7182887233"
+state,state,state associated with the voter's area code,varchar(2),"NY, CA, NJ
+"
+contestant_number,contestant_number,contestant for whom the vote was cast,INTEGER,"2, 3, 5"
+created,created,timestamp when the vote was registered,timestamp,"2018-03-09 19:03:21, 2018-03-09 19:03:36, 2018-03-09 19:03:39, 2018-03-09 19:03:40"

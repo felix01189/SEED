@@ -1,0 +1,8 @@
+original_column_name,column_name,column_description,data_format,value_description
+lost_in_battle,lost_in_battle,"The ID of the battle in which the ship was lost, referencing the `battle` table",INT,"8, 7, 6, 5, 4"
+id,id,The unique identifier for each ship,INT,"1, 2, 3, 4, 5"
+name,name,The name of the ship,TEXT,"Lettice, Bon Accord, Mary, HMS Avon, Three Brothers"
+tonnage,tonnage,"The weight or capacity of the ship, often measured in tons",TEXT,"t, 391, 225"
+ship_type,ship_type,"The type or class of the ship, such as 'Brig' or '18-gun Brig'",TEXT,"Brig, 18-gun Brig, 8 gun Brig"
+location,location,The geographical location where the ship was last known to be,TEXT,"English Channel, SW Approaches, Mid-Atlantic"
+disposition_of_ship,disposition_of_ship,"The final status or fate of the ship, such as 'Captured', 'Wrecked', or 'Sank'",TEXT,"Captured, Wrecked, Scuttled, Sank"

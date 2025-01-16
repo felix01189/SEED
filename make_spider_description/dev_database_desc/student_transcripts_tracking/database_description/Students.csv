@@ -1,0 +1,13 @@
+original_column_name,column_name,column_description,data_format,value_description
+student_id,student_id,"A unique identifier for each student, serving as the primary key",INTEGER,"1, 2, 3, 4, 5"
+current_address_id,current_address_id,"A foreign key referencing the `address_id` in the `Addresses` table, indicating the student's current residential address",INTEGER,"10, 12, 9, 7, 6"
+permanent_address_id,permanent_address_id,"A foreign key referencing the `address_id` in the `Addresses` table, indicating the student's permanent residential address",INTEGER,"15, 5, 11, 9, 3"
+first_name,first_name,The first name of the student,VARCHAR(80),"Timmothy, Hobart, Warren, Jarvis, Milton"
+middle_name,middle_name,"The middle name of the student, if applicable",VARCHAR(40),"Anna, Lorenz, Violet, Aaliyah, Vaughn"
+last_name,last_name,The last name of the student,VARCHAR(40),"Ward, Balistreri, Gleichner, Carroll, Christiansen"
+cell_mobile_number,cell_mobile_number,The student's mobile or cell phone number,VARCHAR(40),"(096)889-8954x524, 1-009-710-5151, 07661787471, 09700166582, 171-642-5684"
+email_address,email_address,The student's email address for communication,VARCHAR(40),"erwin.zboncak@example.com, swift.kolby@example.com, johns.unique@example.net, jillian26@example.net, lhartmann@example.org"
+ssn,ssn,The student's Social Security Number or equivalent identification number,VARCHAR(40),"965, 304246, 3, 141072406, "
+date_first_registered,date_first_registered,The date and time when the student first registered at the institution,DATETIME,"1971-02-05 07:28:23, 1976-10-26 02:33:06, 2007-08-29 23:25:41, 2014-03-28 05:48:23, 1973-05-19 19:12:46"
+date_left,date_left,"The date and time when the student left the institution, if applicable",DATETIME,"1971-05-17 19:28:49, 2013-10-05 17:41:28, 2007-03-31 09:53:19, 2007-08-02 04:12:58, 2007-11-28 12:50:21"
+other_student_details,other_student_details,"Additional details or notes about the student, if any",VARCHAR(255),"quia, autem, facilis, atque, laborum"

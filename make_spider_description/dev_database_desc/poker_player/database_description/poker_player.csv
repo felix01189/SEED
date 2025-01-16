@@ -1,0 +1,7 @@
+original_column_name,column_name,column_description,data_format,value_description
+Poker_Player_ID,Poker_Player_ID,A unique identifier for each poker player in the table,INT,"1, 2, 3, 4, 5"
+People_ID,People_ID,"A foreign key that links to the 'people' table, identifying the person associated with the poker player",INT,"1, 2, 5, 6, 7"
+Final_Table_Made,Final_Table_Made,The number of times the player has reached the final table in poker tournaments,REAL,"42.0, 10.0, 21.0, 19.0, 26.0"
+Best_Finish,Best_Finish,"The player's best finish position in poker tournaments (e.g., 1st, 2nd, 3rd)",REAL,"1.0, 2.0, 3.0"
+Money_Rank,Money_Rank,The player's rank based on their earnings in poker tournaments,REAL,"68.0, 141.0, 166.0, 58.0, 154.0"
+Earnings,Earnings,The total earnings of the player from poker tournaments,REAL,"476090.0, 189233.0, 104871.0, 596462.0, 142800.0"

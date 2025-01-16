@@ -1,0 +1,6 @@
+original_column_name,column_name,column_description,data_format,value_description
+tv_show_ID,tv_show_ID,"A unique identifier for each television show, used as the primary key",INT,"1, 2, 3, 4, 5"
+tv_show_name,tv_show_name,The name of the television show,TEXT,"Peace and Quiet, Box O' Fun, Nighty Nightmare, Fraidy Cat, Garfield's Moving Experience"
+Sub_tittle,Sub_tittle,A subtitle or additional descriptive text related to the television show,TEXT,"Wanted: Wade, Unidentified Flying Orson, Banana Nose, Shell Shocked Sheldon, Wade: You're Afraid"
+Next_show_name,Next_show_name,The name of the next television show in the sequence or series,TEXT,"Garfield Goes an Hawaii, School Daze, Ode to Odie, Nothing to Sneeze At, Good Mouse-keeping"
+Original_Airdate,Original_Airdate,"The original air date of the television show, formatted as text",TEXT,"September17,1988, September24,1988, October1,1988, October8,1988, October15,1988"

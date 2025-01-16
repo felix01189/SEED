@@ -1,0 +1,3 @@
+original_column_name,column_name,column_description,data_format,value_description
+Driver_ID,Driver_ID,"references the `Driver_ID` in the `driver` table, linking a specific driver to a vehicle",INT,"1, 2, 3, 4"
+Vehicle_ID,Vehicle_ID,"references the `Vehicle_ID` in the `vehicle` table, linking a specific vehicle to a driver",INT,"1, 3, 5, 2, 6"

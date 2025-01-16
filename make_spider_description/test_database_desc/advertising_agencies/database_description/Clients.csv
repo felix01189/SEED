@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+client_id,client_id,"A unique identifier for each client, used as the primary key",INTEGER,"1, 2, 3, 4, 5"
+agency_id,agency_id,"The identifier of the advertising agency associated with the client, referencing the `Agencies` table",INTEGER,"8, 5, 3, 14, 9"
+sic_code,sic_code,A code representing the Standard Industrial Classification (SIC) of the client's industry,VARCHAR(10),"Mutual, Bad"
+client_details,client_details,"Additional descriptive information about the client, such as their name or other relevant details",VARCHAR(255),"Alta, Mac, Johnpaul, Taurean, Lucie"

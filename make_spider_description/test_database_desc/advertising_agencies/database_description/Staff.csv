@@ -1,0 +1,4 @@
+original_column_name,column_name,column_description,data_format,value_description
+staff_id,staff_id,A unique identifier for each staff member,INTEGER,"1, 2, 3, 4, 5"
+agency_id,agency_id,"The identifier of the agency where the staff member is employed, linking to the `Agencies` table",INTEGER,"6, 7, 10, 2, 15"
+staff_details,staff_details,"Details about the staff member, typically their name or other identifying information",VARCHAR(255),"Rubie, Sheridan, Annabell, Kendra, Amara"

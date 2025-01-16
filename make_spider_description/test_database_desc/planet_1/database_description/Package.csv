@@ -1,0 +1,7 @@
+original_column_name,column_name,column_description,data_format,value_description
+Shipment,Shipment,"The ID of the shipment to which the package belongs, referencing the 'Shipment' table",INTEGER,"1, 2, 3, 4, 5"
+PackageNumber,PackageNumber,A unique number identifying the package within a shipment,INTEGER,"1, 2, 3"
+Contents,Contents,A description of what is inside the package,VARCHAR(255),"Undeclared, A bucket of krill"
+Weight,Weight,The weight of the package in a real number format,REAL,"1.5, 10.0, 2.0, 15.0, 3.0"
+Sender,Sender,"The account number of the client who sent the package, referencing the 'Client' table",INTEGER,"1, 2, 8, 3, 5"
+Recipient,Recipient,"The account number of the client who is receiving the package, referencing the 'Client' table",INTEGER,"2, 3, 7, 4, 1"

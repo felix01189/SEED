@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+document_id,document_id,references the unique identifier of a document in the `Documents` table,INTEGER,"0, 4, 7, 24, 52"
+process_id,process_id,references the unique identifier of a business process in the `Business_Processes` table,INTEGER,9
+process_outcome_code,process_outcome_code,"indicates the outcome of the process (e.g., 'finish', 'start', 'working') and references the `Process_Outcomes` table",CHAR(15),"finish, start, working"
+process_status_code,process_status_code,"indicates the current status of the process (e.g., 'ct', 'pp') and references the `Process_Status` table",CHAR(15),"ct, pp"

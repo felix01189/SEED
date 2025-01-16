@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+department_id,department_id,"A unique identifier for each department, serving as the primary key",INTEGER,"1, 2, 3, 4, 5"
+department_name,department_name,"The name of the department, such as 'Computer Science' or 'History'",VARCHAR(255),"computer science, history, art, linguistic, management"
+department_description,department_description,A brief description or summary of the department's focus or purpose,VARCHAR(255),"error, nostrum, aliquam, natus, nihil"
+other_details,other_details,"Additional information or details about the department, if any",VARCHAR(255),None

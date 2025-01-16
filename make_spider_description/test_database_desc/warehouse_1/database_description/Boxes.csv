@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+Code,Code,"A unique identifier for each box, represented as a 4-character string",CHAR(4),"0MN7, 4H8P, 4RT3, 7G3H, 8JN6"
+Contents,Contents,"A description of what is inside the box, stored as a variable-length string with a maximum of 255 characters",VARCHAR(255),"Rocks, Scissors, Papers"
+Value,Value,"The monetary value of the contents of the box, stored as a floating-point number",REAL,"180.0, 250.0, 190.0, 200.0, 75.0"
+Warehouse,Warehouse,"An integer that references the `Code` of the `Warehouses` table, indicating which warehouse the box is stored in",INTEGER,"3, 1, 4, 2, 5"

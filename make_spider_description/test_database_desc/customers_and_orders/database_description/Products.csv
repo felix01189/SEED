@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+product_id,product_id,a unique identifier for each product,INTEGER,"1, 2, 3, 4, 5"
+product_type_code,product_type_code,"the category or type of the product, e.g., Hardware, Clothes",VARCHAR(15),"Hardware, Clothes"
+product_name,product_name,"the name of the product, e.g., Monitor, Black Jeans",VARCHAR(80),"Monitor, Topping, Black Jeans, Blue Jeans, Yellow Jeans"
+product_price,product_price,"the price of the product, which can be null if not specified",DOUBLE,"2084.944172129, 26045678.098468, 7312007.4430563, 473.92262166875, 34529451.515631"

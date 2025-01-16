@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+Paragraph_ID,Paragraph_ID,a unique identifier for each paragraph,INTEGER,"7, 9, 65, 241, 3708"
+Document_ID,Document_ID,the ID of the document to which the paragraph belongs,INTEGER,"2394, 3, 50123, 651512, 33930"
+Paragraph_Text,Paragraph_Text,the content of the paragraph,VARCHAR(255),"Korea, Somalia, Palestinian Territory, Jersey, UK"
+Other_Details,Other_Details,additional information or metadata about the paragraph,VARCHAR(255),None

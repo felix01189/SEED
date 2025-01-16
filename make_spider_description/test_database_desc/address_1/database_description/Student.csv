@@ -1,0 +1,9 @@
+original_column_name,column_name,column_description,data_format,value_description
+StuID,StuID,"A unique identifier for each student, serving as the primary key",INTEGER,"1001, 1002, 1003, 1004, 1005"
+LName,LName,The last name of the student,VARCHAR(12),"Smith, Kim, Jones, Kumar, Gompers"
+Fname,Fname,The first name of the student,VARCHAR(12),"Linda, Tracy, Shiela, Dinesh, Paul"
+Age,Age,The age of the student,INTEGER,"18, 19, 21, 20, 26"
+Sex,Sex,"The gender of the student, represented by a single character (e.g., 'M' for male, 'F' for female)",VARCHAR(1),"F, M"
+Major,Major,"The major field of study for the student, represented by an integer code",INTEGER,"600, 520, 540, 550, 100"
+Advisor,Advisor,"The identifier of the student's academic advisor, represented by an integer",INTEGER,"1121, 7712, 7792, 8423, 1148"
+city_code,city_code,"The code representing the city where the student resides, linked to the 'City' table",VARCHAR(3),"BAL, HKG, WAS, CHI, YYZ"

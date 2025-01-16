@@ -1,0 +1,3 @@
+original_column_name,column_name,column_description,data_format,value_description
+Service_ID,Service_ID,a unique identifier for each service,INTEGER,"313, 430, 457, 575, 606"
+Service_Details,Service_Details,"describes the type of service, such as 'driving license', 'broker license', 'dog license', etc",VARCHAR(255),"driving license, broker license, dog license, building permit, liquor license"

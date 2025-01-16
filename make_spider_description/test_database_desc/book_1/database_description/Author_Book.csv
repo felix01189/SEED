@@ -1,0 +1,3 @@
+original_column_name,column_name,column_description,data_format,value_description
+ISBN,ISBN,"references the `ISBN` column in the `Book` table, linking a book to its authors",CHAR(15),"0482174555366, 0853477468299, 1235271378662, 1243415243666, 4554672899910"
+Author,Author,"references the `idAuthor` column in the `Author` table, linking an author to their books",NUMBER,"1, 2, 3, 4, 5"

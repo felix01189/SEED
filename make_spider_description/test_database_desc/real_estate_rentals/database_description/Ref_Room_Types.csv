@@ -1,0 +1,3 @@
+original_column_name,column_name,column_description,data_format,value_description
+room_type_code,room_type_code,"a unique identifier for each room type, such as '2', '3', '4', or '8'",VARCHAR(15),"2, 3, 4, 8"
+room_type_description,room_type_description,"provides a descriptive name for the room type, such as 'living', 'kitchen', 'bath', or 'bedroom'",VARCHAR(80),"living, kitchen, bath, bedroom"

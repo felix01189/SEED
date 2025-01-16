@@ -1,0 +1,8 @@
+original_column_name,column_name,column_description,data_format,value_description
+id,id,"A unique identifier for each cartoon episode, represented as a real number",REAL,"1.0, 2.0, 3.0, 4.0, 5.0"
+Title,Title,"The title of the cartoon episode, represented as text",TEXT,"The Rise of the Blue Beetle!, Terror on Dinosaur Island!, Evil Under the Sea!, Day of the Dark Knight!, Invasion of the Secret Santas!"
+Directed_by,Directed_by,"The name of the director(s) of the cartoon episode, represented as text",TEXT,"Ben Jones, Brandon Vietti, Michael Chang"
+Written_by,Written_by,"The name of the writer(s) of the cartoon episode, represented as text",TEXT,"Michael Jelenic, Steven Melching, Joseph Kuhr, J. M. DeMatteis, Adam Beechen"
+Original_air_date,Original_air_date,"The original air date of the cartoon episode, represented as text in the format 'MonthDay,Year'",TEXT,"November14,2008, November21,2008, December5,2008, January2,2009, December12,2008"
+Production_code,Production_code,"A unique production code for the cartoon episode, represented as a real number",REAL,"101.0, 102.0, 103.0, 104.0, 105.0"
+Channel,Channel,"The channel on which the cartoon episode was aired, represented as text and linked to the 'TV_Channel' table via a foreign key",TEXT,"700, 701, 703, 704, 705"

@@ -1,0 +1,8 @@
+original_column_name,column_name,column_description,data_format,value_description
+detention_id,detention_id,A unique identifier for each detention record,INTEGER,"133, 141, 211, 242, 384"
+detention_type_code,detention_type_code,"A code representing the type of detention (e.g., Lunch, After School, Break, Illness), linked to the Ref_Detention_Type table",CHAR(10),"Lunch, After School, Break, Illness"
+student_id,student_id,"The identifier of the student who received the detention, linked to the Students table",INTEGER,"361, 811, 762, 648, 415"
+datetime_detention_start,datetime_detention_start,The date and time when the detention period begins,DATETIME(3),"2012-03-18 09:49:33.000, 2012-06-07 15:01:05.000, 2011-04-24 17:23:32.000, 2014-01-16 00:49:33.000, 2016-12-28 21:44:59.000"
+datetime_detention_end,datetime_detention_end,The date and time when the detention period ends,DATETIME(3),"2011-09-15 05:58:59.000, 2009-05-23 17:33:31.000, 2013-09-06 15:49:53.000, 2013-04-07 15:42:52.000, 2013-04-20 13:13:40.000"
+detention_summary,detention_summary,"A brief summary or description of the detention, if available",VARCHAR(255),None
+other_details,other_details,"Any additional details related to the detention, if available",VARCHAR(255),None

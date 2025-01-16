@@ -1,0 +1,4 @@
+original_column_name,column_name,column_description,data_format,value_description
+student_course_id,student_course_id,A unique identifier for each student-course enrolment record,INTEGER,"0, 1, 2, 7, 8"
+course_id,course_id,"A foreign key referencing the `Courses` table, indicating the course the student is enrolled in",INTEGER,"6, 14, 11, 2, 10"
+student_enrolment_id,student_enrolment_id,"A foreign key referencing the `Student_Enrolment` table, indicating the specific enrolment record of the student",INTEGER,"2, 8, 5, 13, 4"

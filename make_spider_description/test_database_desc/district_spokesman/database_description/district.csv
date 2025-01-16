@@ -1,0 +1,7 @@
+original_column_name,column_name,column_description,data_format,value_description
+District_ID,District_ID,"A unique identifier for each district, represented as an integer",INT,"1, 2, 3, 4, 5"
+Name,Name,"The name of the district, represented as text",TEXT,"Pozo Almonte, Pica, Huara, Colchane, Camiña"
+Area_km,Area_km,"The geographical area of the district in square kilometers, represented as a real number",REAL,"13765.8, 8934.3, 10474.6, 4015.6, 2200.2"
+Population,Population,"The population of the district, represented as a real number",REAL,"10830.0, 6178.0, 2599.0, 1649.0, 1275.0"
+Density_km,Density_km,"The population density of the district per square kilometer, represented as a real number",REAL,"0.8, 0.7, 0.2, 0.4, 0.6"
+Government_website,Government_website,"The URL or link to the government website of the district, represented as text",TEXT,"linke.gov, linkd.gov, linka.gov, linkg.gov, abc.com"

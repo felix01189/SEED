@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+ID,ID,"A unique identifier for each visitor, used to distinguish one visitor from another",INT,"1, 2, 3, 4, 5"
+Name,Name,"The full name of the visitor, providing a human-readable identifier for each individual",TEXT,"Gonzalo Higuaín , Guti Midfielder, Arjen Robben, Raúl Brown, Fernando Gago"
+Level_of_membership,Level_of_membership,"An integer representing the membership level of the visitor, which could indicate the type of membership or benefits they have",INT,"8, 5, 1, 2, 6"
+Age,Age,"The age of the visitor, which could be used for demographic analysis or to tailor museum experiences",INT,"35, 28, 27, 56, 36"

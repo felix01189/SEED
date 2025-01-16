@@ -1,0 +1,3 @@
+original_column_name,column_name,column_description,data_format,value_description
+student_id,student_id,represents the ID of a student who has a friend,INT,"1101, 1247, 1304, 1316, 1381"
+friend_id,friend_id,represents the ID of the student who is the friend of the student identified by `student_id`,INT,"1381, 1689, 1709, 1247, 1782"

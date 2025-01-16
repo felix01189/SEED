@@ -1,0 +1,8 @@
+original_column_name,column_name,column_description,data_format,value_description
+document_id,document_id,identifies the document associated with the process,INTEGER,"0, 4, 7, 24, 462"
+process_id,process_id,identifies the specific process within the document,INTEGER,9
+staff_id,staff_id,identifies the staff member involved in the process,INTEGER,"3, 67, 100, 26, 76"
+staff_role_code,staff_role_code,specifies the role of the staff member in the process,CHAR(15),"MG, ED, HR, PT, PR"
+date_from,date_from,indicates the start date and time of the staff member's involvement in the process,DATETIME,"1989-02-06 18:30:52, 2015-01-01 06:43:57, 1979-10-19 18:36:39, 1988-06-20 01:13:16, 1973-02-04 06:53:33"
+date_to,date_to,indicates the end date and time of the staff member's involvement in the process,DATETIME,"2001-08-10 20:58:06, 1982-01-11 19:27:20, 1993-12-13 11:55:33, 2000-06-15 03:03:57, 2005-10-19 08:53:29"
+other_details,other_details,may contain additional information about the staff member's involvement in the process,VARCHAR(255),None

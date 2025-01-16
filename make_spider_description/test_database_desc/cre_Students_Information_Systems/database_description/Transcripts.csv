@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+transcript_id,transcript_id,A unique identifier for each transcript record,INTEGER,"131, 138, 145, 167, 177"
+student_id,student_id,"The ID of the student associated with the transcript, linking to the 'Students' table",INTEGER,"669, 824, 361, 276, 811"
+date_of_transcript,date_of_transcript,The date when the transcript was issued or recorded,DATETIME(3),"1973-08-09 00:00:00.000, 1973-11-05 00:00:00.000, 2002-11-23 00:00:00.000, 2017-03-17 00:00:00.000, 2010-12-14 00:00:00.000"
+transcript_details,transcript_details,"Details or summary of the transcript, such as 'Good' or 'Pass', indicating the student's academic performance",VARCHAR(255),"Good, Pass"

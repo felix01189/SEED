@@ -1,0 +1,9 @@
+original_column_name,column_name,column_description,data_format,value_description
+Road,Road,The unique identifier for the road where the race took place,INT,"2, 3, 4, 5, 6"
+Driver_ID,Driver_ID,"The unique identifier for the driver participating in the race, which links to the 'driver' table",INT,"1, 2, 3, 4, 9"
+Race_Name,Race_Name,The name of the race event,TEXT,"Monterey Festival of Speed, Sommet des Legends, Rexall Grand Prix of Edmonton - Race 1, Rexall Grand Prix of Edmonton - Race 2, Road Race Showcase/Road America - Race 1"
+Pole_Position,Pole_Position,The driver who secured the pole position in the race,TEXT,"James Hinchcliffe, Junior Strous, Carl Skerlong, Dane Cameron, Jonathan Bomarito"
+Fastest_Lap,Fastest_Lap,The driver who recorded the fastest lap during the race,TEXT,"Douglas Soares, Junior Strous, David Garza Pérez, Carl Skerlong, Tõnis Kasemets"
+Winning_driver,Winning_driver,The driver who won the race,TEXT,"James Hinchcliffe, Junior Strous, Jonathan Bomarito, Jonathan Summerton, Carl Skerlong"
+Winning_team,Winning_team,The team that won the race,TEXT,"Forsythe Pettit Racing, Condor Motorsports, Mathiasen Motorsports, Newman Wachs Racing, Pacific Coast Motorsports"
+Report,Report,A textual report or summary of the race,TEXT,Report

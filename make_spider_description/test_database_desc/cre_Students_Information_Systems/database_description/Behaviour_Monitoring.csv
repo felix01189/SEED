@@ -1,0 +1,4 @@
+original_column_name,column_name,column_description,data_format,value_description
+behaviour_monitoring_id,behaviour_monitoring_id,A unique identifier for each behavioral monitoring record,INTEGER,"142, 220, 248, 265, 376"
+student_id,student_id,"The identifier of the student whose behavior is being monitored, linking to the `Students` table",INTEGER,"435, 811, 567, 984, 648"
+behaviour_monitoring_details,behaviour_monitoring_details,"Details or codes representing the specific behavior being monitored, such as grades or categories (e.g., A, B, C, D, E)",VARCHAR(255),"A, B, C, D, E"

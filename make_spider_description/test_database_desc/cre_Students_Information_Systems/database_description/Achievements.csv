@@ -1,0 +1,7 @@
+original_column_name,column_name,column_description,data_format,value_description
+achievement_id,achievement_id,unique identifier for each achievement,INTEGER,"153, 159, 262, 264, 316"
+achievement_type_code,achievement_type_code,"type of achievement, e.g., Athletic, Scholastic",CHAR(15),"Athletic, Scholastic"
+student_id,student_id,identifier linking the achievement to a student,INTEGER,"777, 415, 471, 648, 276"
+date_achievement,date_achievement,date when the achievement was earned,DATETIME(3),"2013, 2014, 2015, 2016"
+achievement_details,achievement_details,"additional details about the achievement, e.g., Gold, Silver, Bronze",VARCHAR(255),"Gold, Silver, Bronze"
+other_details,other_details,optional field for extra information,VARCHAR(255),None

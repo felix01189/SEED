@@ -1,0 +1,8 @@
+original_column_name,column_name,column_description,data_format,value_description
+Book_ID,Book_ID,A unique identifier for each book in the database,INT,"1, 2, 3, 4, 5"
+Title,Title,The name or title of the book,TEXT,"A Game of Thrones, A Clash of Kings, A Storm of Swords, A Feast for Crows, A Dance with Dragons"
+Type,Type,"The genre or category of the book, such as Novel or Poet",TEXT,"Novel, Poet"
+Pages,Pages,The total number of pages in the book,INT,"704, 768, 992, 753, 1056"
+Chapters,Chapters,The total number of chapters in the book,INT,"73, 70, 82, 46"
+Audio,Audio,"The duration of the audiobook version, if available",TEXT,"33h 53m, 37h 17m, 47h 37m, 31h 10m, 48h 56m"
+Release,Release,"The release date of the book, typically in a month-year format",TEXT,"August 1996, February 1999, November 2000, November 2005, July 2011"

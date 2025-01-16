@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+feature_id,feature_id,a unique identifier for each feature,INTEGER,"2, 3, 4"
+feature_type_code,feature_type_code,"categorizes the feature into types like 'Amenity' or 'Security', a foreign key linking to the `Ref_Feature_Types` table to ensure valid feature types",VARCHAR(20),"Amenity, Security"
+feature_name,feature_name,a short name for the feature,VARCHAR(80),"AirCon, Pool, BurglarAlarm"
+feature_description,feature_description,provides a brief description of the feature,VARCHAR(80),"Air Conditioning., Swimming Pool., Burglar Alarm"

@@ -1,0 +1,6 @@
+original_column_name,column_name,column_description,data_format,value_description
+Conductor_ID,Conductor_ID,unique identifier for each conductor,INT,"1, 2, 3, 4, 5"
+Name,Name,full name of the conductor,TEXT,"Antal Doráti, Igor Stravinsky, Colin Davis, Paul Jorgensen, Antal Brown"
+Age,Age,age of the conductor,INT,"40, 41, 42, 43, 50"
+Nationality,Nationality,country of origin of the conductor,TEXT,"USA, UK, France"
+Year_of_Work,Year_of_Work,number of years the conductor has been working,INT,"10, 11, 6, 20, 12"

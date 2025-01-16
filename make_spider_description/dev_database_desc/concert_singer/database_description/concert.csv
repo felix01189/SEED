@@ -1,0 +1,6 @@
+original_column_name,column_name,column_description,data_format,value_description
+concert_ID,concert_ID,"A unique identifier for each concert, represented as an integer",INT,"1, 2, 3, 4, 5"
+concert_Name,concert_Name,"The name of the concert, represented as text",TEXT,"Auditions, Super bootcamp, Home Visits, Week 1, Week 2"
+Theme,Theme,"The theme or concept of the concert, represented as text",TEXT,"Free choice, Free choice 2, Bleeding Love, Wide Awake, Happy Tonight"
+Stadium_ID,Stadium_ID,"The identifier of the stadium where the concert is held, represented as text and linked to the 'stadium' table via a foreign key",TEXT,"1, 2, 10, 9, 7"
+Year,Year,"The year in which the concert took place, represented as text",TEXT,"2014, 2015"

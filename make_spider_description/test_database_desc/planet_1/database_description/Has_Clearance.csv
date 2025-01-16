@@ -1,0 +1,4 @@
+original_column_name,column_name,column_description,data_format,value_description
+Employee,Employee,represents the ID of the employee who has clearance,INTEGER,"1, 2, 3, 4"
+Planet,Planet,represents the ID of the planet for which the employee has clearance,INTEGER,"1, 2, 3, 4, 5"
+Level,Level,represents the clearance level of the employee for the specified planet,INTEGER,"2, 3, 4, 1"

@@ -1,0 +1,7 @@
+original_column_name,column_name,column_description,data_format,value_description
+player_id,player_id,"A unique identifier for each player, used as the primary key in the table",INT,"200001, 200002, 200003, 200004, 200005"
+first_name,first_name,The first name of the player,TEXT,"Martina, Mirjana, Justine, Kerry Anne, Jolene"
+last_name,last_name,The last name of the player,TEXT,"Hingis, Lucic, Henin, Guse, Watanabe Giltz"
+hand,hand,"The hand preference of the player (e.g., right-handed, left-handed, or unknown)",TEXT,"R, L, U, "
+birth_date,birth_date,The birth date of the player in the format YYYYMMDD,DATE,"19800930, 19820309, 19820601, 19721204, 19680831"
+country_code,country_code,The country code representing the player's nationality,TEXT,"SUI, CRO, BEL, AUS, USA"

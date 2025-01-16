@@ -1,0 +1,6 @@
+original_column_name,column_name,column_description,data_format,value_description
+EmployeeID,EmployeeID,"A unique identifier for each employee, serving as the primary key for the table",INTEGER,"1, 2, 3, 4, 5"
+Name,Name,"The full name of the employee, stored as a string and cannot be null",VARCHAR(255),"Phillip J. Fry, Turanga Leela, Bender Bending Rodriguez, Hubert J. Farnsworth, John A. Zoidberg"
+Position,Position,"The job title or role of the employee, stored as a string and cannot be null",VARCHAR(255),"Delivery boy, Captain, Robot, CEO, Physician"
+Salary,Salary,"The amount of money the employee earns, stored as a real number and cannot be null",REAL,"7500.0, 10000.0, 20000.0, 25.0, 5000.0"
+Remarks,Remarks,"Additional notes or comments about the employee, stored as a string and can be null",VARCHAR(255),"Not to be confused with the Philip J. Fry from Hovering Squid World 97a, None"

@@ -1,0 +1,8 @@
+original_column_name,column_name,column_description,data_format,value_description
+Performance_ID,Performance_ID,A unique identifier for each performance,INT,"1, 2, 3, 4, 5"
+Orchestra_ID,Orchestra_ID,"The identifier of the orchestra that performed, linking to the 'orchestra' table",INT,"1, 2, 3, 4, 5"
+Type,Type,"The type or category of the performance (e.g., Auditions, Semi-final, Live final)",TEXT,"Auditions 1, Auditions 2, Auditions 3, Auditions 4, Auditions 5"
+Date,Date,The date on which the performance took place,TEXT,"9 June, 10 June, 11 June, 12 June, 13 June"
+Official_ratings_(millions),Official_ratings_(millions),The official viewership ratings of the performance in millions,REAL,"5.2, 6.73, 7.28, 7.39, 7.51"
+Weekly_rank,Weekly_rank,The rank of the performance in the weekly rankings,TEXT,"12, 8, 15, 13, 11"
+Share,Share,"The share of the audience that watched the performance, expressed as a percentage",TEXT,"22.7%, 28.0%, 29.4%, 29.3%, 29.2%"

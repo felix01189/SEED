@@ -1,0 +1,4 @@
+original_column_name,column_name,column_description,data_format,value_description
+Conference_ID,Conference_ID,foreign key referencing the `conference` table,INT,"1, 2, 4, 5, 6"
+staff_ID,staff_ID,foreign key referencing the `staff` table,INT,"1, 2, 4, 5, 6"
+role,role,describes the role of the staff member in the conference,TEXT,"Speaker, Sponsor, Participant"

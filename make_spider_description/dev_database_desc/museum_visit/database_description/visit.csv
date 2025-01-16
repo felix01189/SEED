@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+Museum_ID,Museum_ID,"The unique identifier of the museum visited, linking to the 'museum' table",INT,"1, 2, 4, 8"
+visitor_ID,visitor_ID,"The unique identifier of the visitor, linking to the 'visitor' table",TEXT,"5, 3, 6"
+Num_of_Ticket,Num_of_Ticket,The number of tickets purchased by the visitor for the visit,INT,"20, 4, 10, 24, 3"
+Total_spent,Total_spent,The total amount of money spent by the visitor during the visit,REAL,"320.14, 89.98, 320.44, 209.98, 20.44"

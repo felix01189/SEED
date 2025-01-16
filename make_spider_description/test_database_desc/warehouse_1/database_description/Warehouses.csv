@@ -1,0 +1,4 @@
+original_column_name,column_name,column_description,data_format,value_description
+Code,Code,"the primary key, uniquely identifying each warehouse",INTEGER,"1, 2, 3, 4, 5"
+Location,Location,stores the address or geographical location of the warehouse,VARCHAR(255),"Chicago, New York, Los Angeles, San Francisco"
+Capacity,Capacity,represents the maximum number of items or storage units the warehouse can hold,INTEGER,"3, 4, 7, 2, 8"

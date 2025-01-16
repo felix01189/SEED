@@ -1,0 +1,7 @@
+original_column_name,column_name,column_description,data_format,value_description
+Team_ID,Team_ID,A unique identifier for each racing team,INT,"1, 2, 3, 4, 5"
+Team,Team,The name of the racing team,TEXT,"Arrington Racing, Benfield Racing, Blue Max Racing, Bobby Hawkins Racing, Bud Moore Engineering"
+Make,Make,The type or model of car used by the team,TEXT,"Chrysler Imperial, Buick Regal, Pontiac Grand Prix, Chevrolet Monte Carlo, Ford Thunderbird"
+Manager,Manager,The name of the team's manager,TEXT,"Buddy Arrington, Joe Ruttman, Tim Richmond, David Pearson, Dale Earnhardt"
+Sponsor,Sponsor,The sponsor associated with the team,TEXT,"Arrington Racing, Levi Garrett, Old Milwaukee, Chattanooga Chew, Wrangler Jeans"
+Car_Owner,Car_Owner,The name of the person or entity that owns the car used by the team,TEXT,"Buddy Arrington, Ron Benfield, Raymond Beadle, Bobby Hawkins, Bud Moore"

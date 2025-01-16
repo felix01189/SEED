@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+user_id,user_id,"The ID of the user who performed the search, referencing the `Users` table",INTEGER,"13, 1, 11, 4, 5"
+search_seq,search_seq,"A unique sequence number for each search performed by a user, used to order searches chronologically",INTEGER,"50636, 203, 5054, 923800, 82475512"
+search_datetime,search_datetime,The date and time when the search was performed,DATETIME,"2014-04-28 20:21:54, 1981-11-21 22:02:12, 1972-04-13 22:48:13, 2007-09-11 14:19:26, 1981-01-01 16:48:00"
+search_string,search_string,The text or keywords used by the user in the search query,VARCHAR(80),"optio, assumenda, consequatur, laudantium, laboriosam"

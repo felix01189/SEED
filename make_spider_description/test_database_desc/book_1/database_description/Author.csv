@@ -1,0 +1,3 @@
+original_column_name,column_name,column_description,data_format,value_description
+idAuthor,idAuthor,a unique identifier for each author,NUMBER,"1, 2, 3, 4, 5"
+Name,Name,stores the name of the author,VARCHAR(25),"Jane Austin, George Orwell, J.R.R Tolkien, Antoine de Saint-Exupy, Bram Stoker"

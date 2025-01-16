@@ -1,0 +1,6 @@
+original_column_name,column_name,column_description,data_format,value_description
+Country_Id,Country_Id,"A unique identifier for each country, used as the primary key",INT,"1, 2, 3, 4, 5"
+Country,Country,The name of the country,TEXT,"Japan, USA, Britain, China, Ireland"
+Capital,Capital,The capital city of the country,TEXT,"Tokyo, Washington, London, Beijing, Dublin"
+Official_native_language,Official_native_language,The official or native language spoken in the country,TEXT,"Japanese, English, British English, Chinese, Irish English"
+Regoin,Regoin,The geographical region where the country is located,TEXT,"Asia, North America, Europe"

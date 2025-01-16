@@ -1,0 +1,6 @@
+original_column_name,column_name,column_description,data_format,value_description
+People_ID,People_ID,A unique identifier for each person in the 'people' table,INT,"1, 2, 3, 4, 5"
+Nationality,Nationality,The country of origin or nationality of the person,TEXT,"Russia, Bulgaria"
+Name,Name,The full name of the person,TEXT,"Aleksey Ostapenko, Teodor Salparov, Roman Bragin, Sergey Grankin, Yevgeni Sivozhelez"
+Birth_Date,Birth_Date,"The date of birth of the person, stored as text",TEXT,"May 26, 1986, August 16, 1982, April 17, 1987, January 22, 1987, August 8, 1986"
+Height,Height,"The height of the person in centimeters, stored as a real number",REAL,"207.0, 182.0, 187.0, 193.0, 196.0"

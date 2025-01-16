@@ -1,0 +1,9 @@
+original_column_name,column_name,column_description,data_format,value_description
+Id,Id,Primary key uniquely identifying each car in the `cars_data` table,INTEGER,"1, 2, 3, 4, 5"
+MPG,MPG,"Miles per gallon, representing the fuel efficiency of the car (can be null if data is missing)",TEXT,"18, 15, 16, 17, 14"
+Cylinders,Cylinders,Number of cylinders in the car's engine,INTEGER,"8, 4, 6, 3, 5"
+Edispl,Edispl,"Engine displacement, representing the total volume of all the cylinders in the engine (in liters)",REAL,"307.0, 350.0, 318.0, 304.0, 302.0"
+Horsepower,Horsepower,Power output of the car's engine (can be null if data is missing),TEXT,"130, 165, 150, 140, 198"
+Weight,Weight,Weight of the car in pounds,INTEGER,"3504, 3693, 3436, 3433, 3449"
+Accelerate,Accelerate,Time taken for the car to accelerate from 0 to 60 mph (in seconds),REAL,"12.0, 11.5, 11.0, 10.5, 10.0"
+Year,Year,Manufacturing year of the car,INTEGER,"1970, 1971, 1972, 1973, 1974"

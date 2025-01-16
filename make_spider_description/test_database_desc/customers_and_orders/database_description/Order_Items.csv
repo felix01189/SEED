@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+order_item_id,order_item_id,"A unique identifier for each item within an order, ensuring each item can be uniquely referenced",INTEGER,"1, 2, 3, 4, 5"
+order_id,order_id,"The identifier of the order to which the item belongs, linking the item to a specific order in the `Customer_Orders` table",INTEGER,"8, 1, 13, 2, 5"
+product_id,product_id,"The identifier of the product associated with the item, linking the item to a specific product in the `Products` table",INTEGER,"13, 10, 11, 1, 7"
+order_quantity,order_quantity,"The quantity of the product ordered, indicating how many units of the product are included in the order",VARCHAR(80),"2, 4, 7, 1, 9"

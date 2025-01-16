@@ -1,0 +1,4 @@
+original_column_name,column_name,column_description,data_format,value_description
+CountryId,CountryId,a unique identifier for each country,INTEGER,"1, 2, 3, 4, 5"
+CountryName,CountryName,the name of the country,TEXT,"usa, germany, france, japan, italy"
+Continent,Continent,"a reference to the continent the country belongs to, linked to the 'continents' table",INTEGER,"1, 2, 3, 4, 5"

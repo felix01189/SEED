@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+Id,Id,A unique identifier for each car manufacturer,INTEGER,"1, 2, 3, 4, 5"
+Maker,Maker,The abbreviated name or short form of the car manufacturer,TEXT,"amc, volkswagen, bmw, gm, ford"
+FullName,FullName,The full name or official name of the car manufacturer,TEXT,"American Motor Company, Volkswagen, BMW, General Motors, Ford Motor Company"
+Country,Country,"A foreign key referencing the 'CountryId' in the 'countries' table, indicating the country where the car manufacturer is based",TEXT,"1, 2, 3, 4, 5"

@@ -1,0 +1,3 @@
+original_column_name,column_name,column_description,data_format,value_description
+age_category_code,age_category_code,"represents the unique identifier for each age category, such as '18-25', '25-60', or 'Over 60'",VARCHAR(15),"18-25, 25-60, Over 60"
+age_category_description,age_category_description,"provides a brief description of the age category, such as '18 - 25 years old.', '25 - 60 years old.', or 'Over 60 years of age.'",VARCHAR(80),"18 - 25 years old., Over 60 years of age., 25 - 60 years old."

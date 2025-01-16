@@ -1,0 +1,5 @@
+original_column_name,column_name,column_description,data_format,value_description
+invoice_id,invoice_id,"A unique identifier for each invoice, serving as the primary key",INTEGER,"1, 2, 3, 4, 5"
+client_id,client_id,"The identifier of the client associated with the invoice, linking to the `Clients` table",INTEGER,"5, 9, 15, 8, 7"
+invoice_status,invoice_status,"The current status of the invoice, such as 'Working', 'Starting', or 'Finish",VARCHAR(10),"Working, Starting, Finish"
+invoice_details,invoice_details,"Additional details or comments about the invoice, such as 'excellent', 'good', or 'ok'",VARCHAR(255),"excellent, good, ok"
