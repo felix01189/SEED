@@ -51,13 +51,12 @@ Step-by-Step Instructions:
 2. **Analyze the Question and Schema**: Identify key elements in the question that need mapping (columns, tables, values). Clarify ambiguities by referencing the database schema.
 3. **Analyze the Few-shot samples**: Read the samples and understand the relationship between question and evidence and database schema and descriptions.
 4. **Generate Evidence**: Based on what you analyzed earlier, generate evidence so that it is as short as possible and contains as much information as possible.
-5. **Evidence Concatenation**: Combine the contents of step 3 and step 4 to create an evidence.
-6. **Consideration of cautions**: Make sure that the generated evidence does not violate the cautions below.
+5. **Consideration of cautions**: Make sure that the generated evidence does not violate the cautions below.
     Cautions 1. Schema-Specific Language: Use precise terminology from the database schema to avoid ambiguity. 
     Cautions 2. Schema Formatting: When mentioning a column, mention the table containing that column together. Use the form (`table`.`column`) to refer to columns.
     Cautions 3. Case Sensitivity: Reflect the exact case of database values in your evidence to prevent mismatches. Refer to db value for accurate case utilization.
-7. **Output Reasoning**: Describe the reasoning of each step in detail and print it out.
-8. **Output Evidence**: Provide the output in the following unannotated JSON format:
+6. **Output Reasoning**: Describe the reasoning of each step in detail and print it out.
+7. **Output Evidence**: Provide the output in the following unannotated JSON format:
 	{
 	    "evidence": "Provide clear, concise and accurate evidence"
 	}
