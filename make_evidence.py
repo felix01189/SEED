@@ -14,16 +14,22 @@ from datetime import datetime
 import jellyfish
 from charset_normalizer import detect
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from transformers import AutoModelForCausalLM, AutoTokenizer
+import warnings
 
+warnings.filterwarnings("ignore")
 
 ###settting#####################################################################################
-# gpt-4o-mini-2024-07-18, gpt-4o-2024-11-20
+# gpt-4o-mini-2024-07-18, gpt-4o-2024-11-20, deepseek-reasoner
 keyword_extract_temperature = 0.
 evidence_generation_temperature = 0.
-keyword_extract_llm="gpt-4o-mini-2024-07-18"
-evidence_generation_llm="gpt-4o-2024-11-20"
+schema_summary_temperature = 0.
+keyword_extract_llm, evidence_generation_llm, schema_summary_llm = "deepseek-reasoner", "deepseek-reasoner", "deepseek-reasoner"
+# keyword_extract_llm, evidence_generation_llm, schema_summary_llm = "gpt-4o-mini-2024-07-18", "gpt-4o-2024-11-20", "gpt-4o-mini-2024-07-18"
 embedding_model_name = "sentence-transformers/all-mpnet-base-v2"
 parallel_process = 32
+schema_summary = False if "gpt" in evidence_generation_llm else True
+debug_print = False
 ################################################################################################
 
 def parse_option():
@@ -35,6 +41,7 @@ def parse_option():
     parser.add_argument("--top_k", type=int,  default=3)
     parser.add_argument("--train_db_path", type=str,  default="./data/bird/train/train_databases")
     parser.add_argument("--openai_api_key", type=str, default="")
+    parser.add_argument("--deepseek_api_key", type=str, default="")
 
     opt = parser.parse_args()
 
@@ -118,19 +125,85 @@ Please follow these steps to extract the keywords and provide a detailed explana
     return evidence_generation_system_prompt, evidence_generation_user_prompt, keyword_extract_system_prompt, keyword_extract_user_prompt
 
 
-def generate_reply(input, model, temperature, openai_api_key=""):
 
-    client = OpenAI(api_key=openai_api_key)
+def make_schema_summary_prompt(question, concat_schema):
+    system_prompt = """### As a data science expert, your task is to prepare a schema for efficient text-to-SQL operations through schema linking. \
+The given schema includes comments for each column, providing descriptions and value samples. \
+Identify and remove columns that are irrelevant to the provided question. \
+However, ensure that columns designated as primary keys or foreign keys are preserved. \
+For all remaining columns, retain their associated comments, including descriptions and value samples.
+
+Present results in the following JSON format without description:
+    {
+        "summarized_schema": 
+    }
+"""
+
+    user_prompt = f"""#######################################################
+1. schema of question
+{{
+    {concat_schema}}}
+    
+2. question
+{{
+    "question": "{question}"
+}}
+
+### Let's think step by step.
+"""
+
+    return system_prompt, user_prompt
+
+
+def merge_consecutive_messages(messages):
+    if not messages:
+        return []
+
+    merged_messages = []
+    prev_role = None
+    prev_content = ""
+
+    for message in messages:
+        current_role = message["role"]
+        current_content = message["content"]
+
+        if current_role == prev_role:
+            prev_content += "\n" + current_content
+        else:
+            if prev_role is not None:
+                merged_messages.append({"role": prev_role, "content": prev_content.strip()})
+            prev_role = current_role
+            prev_content = current_content
+
+    if prev_role is not None:
+        merged_messages.append({"role": prev_role, "content": prev_content.strip()})
+
+    return merged_messages
+
+
+
+def generate_reply(input, model_name, temperature, openai_api_key="", deepseek_api_key=""):
+
+    if debug_print: print(input)
+    input = merge_consecutive_messages(input)
+
+    if "gpt" in model_name:
+        client = OpenAI(api_key=openai_api_key)
+    else:        
+        client = OpenAI(api_key=deepseek_api_key, base_url="https://api.deepseek.com")
 
     response = client.chat.completions.create(
-        model=model,
+        model=model_name,
         messages=input,
         temperature=temperature,
-        stream=False
+        stream=False,
+        max_tokens=8192 if model_name == 'deepseek-reasoner' else None
     )
 
-    return response.choices[0].message.content
+    response = response.choices[0].message.content
 
+    if debug_print: print(response)
+    return response
 
 
 def generate_schema(db_path):
@@ -214,7 +287,13 @@ def extract_from_json(response_content, item):
                 response_json = json.loads(matches[-1])
                 return response_json.get(item, f"Warning) No {item} found")
             except:
-                return "Warning) Response is not in JSON format"
+                json_pattern = r"```(?:json)?\s*(.*?)\s*```"
+                matches = re.findall(json_pattern, response_content, re.DOTALL)
+                try:
+                    response_json = json.loads(matches[-1])
+                    return response_json.get(item, f"Warning) No {item} found")
+                except:
+                    return "Warning) Response is not in JSON format"
 
 
 def concat_schema_and_desc(schema, schema_description):
@@ -362,7 +441,27 @@ class SimilarQuestionFinder:
 
 
 
-def evidence_generation(evidence_generation_system_prompt, evidence_generation_user_prompt, keyword_extract_system_prompt, keyword_extract_user_prompt, finder, data, openai_api_key):
+def evidence_generation(question, concat_schema, finder, data, openai_api_key, deepseek_api_key):
+
+    if schema_summary:
+        summary_system_prompt, summary_user_prompt = make_schema_summary_prompt(question, concat_schema)
+        summary_prompt = [{"role": "system", "content": summary_system_prompt}, {"role": "user", "content": summary_user_prompt}]
+
+        response = None
+        while response is None:
+            try:
+                response = generate_reply(summary_prompt, schema_summary_llm, schema_summary_temperature, openai_api_key, deepseek_api_key)
+            except Exception as e:
+                print('api error, wait for 3 seconds and retry...')
+                print(e)
+                time.sleep(3)
+                pass
+            
+        concat_schema = extract_from_json(response, "summarized_schema")
+
+    evidence_generation_system_prompt, evidence_generation_user_prompt, keyword_extract_system_prompt, keyword_extract_user_prompt = make_prompt(
+        question, concat_schema
+    )
 
     keyword_extract_prompt = [{"role": "system", "content": keyword_extract_system_prompt}]
     keyword_extract_prompt.append({"role": "user", "content": keyword_extract_user_prompt})
@@ -373,9 +472,33 @@ def evidence_generation(evidence_generation_system_prompt, evidence_generation_u
     sample_num = 0
     for question, db_id, evidence, additional_questions in similar_questions:
         train_schema = generate_schema(f"{opt.train_db_path}/{db_id}/{db_id}.sqlite")
-        train_schema_description = read_schema_description(f"{opt.train_db_path}/{db_id}/database_description", f"{opt.train_db_path}/{db_id}/{db_id}.sqlite", 5)
+        train_schema_description = read_schema_description(f"{opt.train_db_path}/{db_id}/database_description", f"{opt.train_db_path}/{db_id}/{db_id}.sqlite", 3)
+
+        questions = f"""
+"question_0": "{question}"
+"""
+        for i, (additional_question, _) in enumerate(additional_questions):
+            questions += f"""
+"question_{i+1}": "{additional_question}"
+"""
 
         concat_train_schema = concat_schema_and_desc(train_schema, train_schema_description)
+
+        if schema_summary:
+            summary_system_prompt, summary_user_prompt = make_schema_summary_prompt(questions, concat_train_schema)
+            summary_prompt = [{"role": "system", "content": summary_system_prompt}, {"role": "user", "content": summary_user_prompt}]
+
+            response = None
+            while response is None:
+                try:
+                    response = generate_reply(summary_prompt, schema_summary_llm, schema_summary_temperature, openai_api_key, deepseek_api_key)
+                except Exception as e:
+                    print('api error, wait for 3 seconds and retry...')
+                    print(e)
+                    time.sleep(3)
+                    pass
+                
+            concat_train_schema = extract_from_json(response, "summarized_schema")
 
         sample_num += 1
         train_sample_user = f"""
@@ -406,19 +529,19 @@ def evidence_generation(evidence_generation_system_prompt, evidence_generation_u
 ##################################################################
 """
         evidence_generation_prompt.append({"role": "user", "content": train_sample_user})
-
         
     response = None
     while response is None:
         try:
-            response = generate_reply(keyword_extract_prompt, keyword_extract_llm, keyword_extract_temperature, openai_api_key)
+            response = generate_reply(keyword_extract_prompt, keyword_extract_llm, keyword_extract_temperature, openai_api_key, deepseek_api_key)
         except Exception as e:
             print('api error, wait for 3 seconds and retry...')
             print(e)
             time.sleep(3)
             pass
-        
+
     schema_value_pair = extract_from_json(response, "schema-value-pair")
+
     sample_query_result = get_sample_query_result(schema_value_pair, f"{opt.db_path}/{data['db_id']}/{data['db_id']}.sqlite")
 
     sample_sql_result_prompt = """
@@ -433,12 +556,10 @@ def evidence_generation(evidence_generation_system_prompt, evidence_generation_u
     evidence_generation_prompt.append({"role": "user", "content": sample_sql_result_prompt})
     evidence_generation_prompt.append({"role": "user", "content": evidence_generation_user_prompt})
 
-    # print(evidence_generation_prompt)
-
     response = None
     while response is None:
         try:
-            response = generate_reply(evidence_generation_prompt, evidence_generation_llm, evidence_generation_temperature, openai_api_key)
+            response = generate_reply(evidence_generation_prompt, evidence_generation_llm, evidence_generation_temperature, openai_api_key, deepseek_api_key)
         except Exception as e:
             print('api error, wait for 3 seconds and retry...')
             print(e)
@@ -448,31 +569,21 @@ def evidence_generation(evidence_generation_system_prompt, evidence_generation_u
             pass
     evidence = str(extract_from_json(response, "evidence")).replace('\n',', ')
 
-    # print(response)
-
     if isinstance(evidence, dict):
         evidence = ", ".join([f"{key}: {value}" for key, value in evidence.items()])
     return evidence
 
 
-def process_data(i, data, opt, finder, openai_api_key):
+def process_data(i, data, opt, finder, openai_api_key, deepseek_api_key):
     schema = generate_schema(f"{opt.db_path}/{data['db_id']}/{data['db_id']}.sqlite")
     schema_description = read_schema_description(
         f"{opt.db_path}/{data['db_id']}/database_description",
         f"{opt.db_path}/{data['db_id']}/{data['db_id']}.sqlite",
-        30
+        3
     )
     concat_schema = concat_schema_and_desc(schema, schema_description)
 
-    evidence_generation_system_prompt, evidence_generation_user_prompt, keyword_extract_system_prompt, keyword_extract_user_prompt = make_prompt(
-        data["question"], concat_schema
-    )
-
-    evidence = evidence_generation(
-        evidence_generation_system_prompt, evidence_generation_user_prompt,
-        keyword_extract_system_prompt, keyword_extract_user_prompt,
-        finder, data, openai_api_key
-    )
+    evidence = evidence_generation(data['question'], concat_schema, finder, data, openai_api_key, deepseek_api_key)
 
     data["evidence"] = evidence
     print("===================================================================================================")
@@ -505,7 +616,7 @@ if __name__ == "__main__":
     completed_count = 0
 
     with ThreadPoolExecutor(max_workers=parallel_process) as executor:
-        future_to_index = {executor.submit(process_data, i, data, opt, finder, opt.openai_api_key): i for i, data in enumerate(question_json_all)}
+        future_to_index = {executor.submit(process_data, i, data, opt, finder, opt.openai_api_key, opt.deepseek_api_key): i for i, data in enumerate(question_json_all)}
 
         with tqdm(total=len(question_json_all), desc=f"Done: {completed_count}/{len(question_json_all)}") as pbar:
             for future in as_completed(future_to_index):

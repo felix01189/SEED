@@ -41,12 +41,16 @@ SEED
 ├── dataset
 │   ├── bird_dev_gold_evi.json
 │   ├── bird_dev_no_evi.json
-│   ├── bird_dev_seed_evi.json
+│   ├── bird_dev_seed_deepseek_evi.json
+│   ├── bird_dev_seed_deepseek_revised_evi.json
+│   ├── bird_dev_seed_gpt_evi.json
 │   ├── spider_dev_no_evi.json
-│   ├── spider_dev_seed_evi.json
+│   ├── spider_dev_seed_gpt_evi.json
 │   ├── spider_test_no_evi.json
-│   └── spider_test_seed_evi.json
+│   └── spider_test_seed_gpt_evi.json
+├── deepseek_api_key
 ├── erase_evidence.py
+├── evidence_remove_join.py
 ├── make_evidence.py
 ├── make_spider_description
 │   ├── dev_database_desc
@@ -56,14 +60,58 @@ SEED
 │   ├── step3_run_spider_description.sh
 │   └── test_database_desc
 ├── openai_api_key
+├── readme_image
+│   ├── fig1_a.png
+│   ├── fig1_b.png
+│   └── fig1_c.png
 ├── README.md
 ├── requirements.txt
 ├── results
 │   ├── bird
+│   │   ├── chess_ir_cg_ut_bird_dev_gold_evi.json
+│   │   ├── chess_ir_cg_ut_bird_dev_no_evi.json
+│   │   ├── chess_ir_cg_ut_bird_dev_seed_deepseek_evi.json
+│   │   ├── chess_ir_cg_ut_bird_dev_seed_deepseek_revised_evi.json
+│   │   ├── chess_ir_cg_ut_bird_dev_seed_gpt_evi.json
+│   │   ├── chess_ir_ss_cg_bird_dev_gold_evi.json
+│   │   ├── chess_ir_ss_cg_bird_dev_no_evi.json
+│   │   ├── chess_ir_ss_cg_bird_dev_seed_deepseek_evi.json
+│   │   ├── chess_ir_ss_cg_bird_dev_seed_gpt_evi.json
+│   │   ├── codes_15_bird_dev_gold_evi.json
+│   │   ├── codes_15_bird_dev_no_evi.json
+│   │   ├── codes_15_bird_dev_seed_deepseek_evi.json
+│   │   ├── codes_15_bird_dev_seed_deepseek_revised_evi.json
+│   │   ├── codes_15_bird_dev_seed_gpt_evi.json
+│   │   ├── codes_7_bird_dev_gold_evi.json
+│   │   ├── codes_7_bird_dev_no_evi.json
+│   │   ├── codes_7_bird_dev_seed_deepseek_evi.json
+│   │   ├── codes_7_bird_dev_seed_deepseek_revised_evi.json
+│   │   ├── codes_7_bird_dev_seed_gpt_evi.json
+│   │   ├── dail_bird_dev_gold_evi.json
+│   │   ├── dail_bird_dev_no_evi.json
+│   │   ├── dail_bird_dev_seed_deepseek_evi.json
+│   │   ├── dail_bird_dev_seed_gpt_evi.json
+│   │   ├── rsl_bird_dev_gold_evi.json
+│   │   ├── rsl_bird_dev_no_evi.json
+│   │   ├── rsl_bird_dev_seed_deepseek_evi.json
+│   │   └── rsl_bird_dev_seed_gpt_evi.json
 │   └── spider
+│       ├── c3_spider_dev_no_evi.txt
+│       ├── c3_spider_dev_seed_gpt_evi.txt
+│       ├── c3_spider_test_no_evi.txt
+│       ├── c3_spider_test_seed_gpt_evi.txt
+│       ├── codes_15_spider_dev_no_evi.txt
+│       ├── codes_15_spider_dev_seed_gpt_evi.txt
+│       ├── codes_15_spider_test_no_evi.txt
+│       ├── codes_15_spider_test_seed_gpt_evi.txt
+│       ├── codes_7_spider_dev_no_evi.txt
+│       ├── codes_7_spider_dev_seed_gpt_evi.txt
+│       ├── codes_7_spider_test_no_evi.txt
+│       └── codes_7_spider_test_seed_gpt_evi.txt
 ├── run_make_evidence.sh
 ├── run_make_evidence_spider_dev.sh
 └── run_make_evidence_spider_test.sh
+
 ```
 
 ## Environment Setup
@@ -75,10 +123,14 @@ conda activate SEED
 pip install -r requirements.txt
 ```
 
-**2. make openai_api_key with your api key**
+**2. make api_key with your api key**
 ```
 vi openai_api_key
-sk-proj-
+sk-
+```
+```
+vi deepseek_api_key
+sk-
 ```
 
 **3. download BIRD, Spider dataset**
@@ -211,3 +263,20 @@ sh step3_run_spider_description.sh
 
 **4. column description copy and paste**
 Paste the column description that LLM generated in json form into the csv file.
+
+
+## SEED evidence revise (remvoe join info)
+
+**1. input/output file and api key setting**
+```
+vi evidence_remove_join.py
+```
+```
+input_path = "./bird_dev_seed_deepseek_evi.json"
+output_path = "./bird_dev_seed_deepseek_revised_evi.json"
+deepseek_api_key = ""
+```
+**2. run code**
+```
+python evidence_remove_join.py
+```
